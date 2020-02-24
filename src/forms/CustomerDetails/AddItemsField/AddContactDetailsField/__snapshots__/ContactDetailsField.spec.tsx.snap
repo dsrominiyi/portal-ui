@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactDetailsField ContactDetailsField matches snapshot 1`] = `
+<AddItemsField
+  errorText="Please add at least one method of contact"
+  fieldText="Contact details"
+  form={[Function]}
+  itemName="contact"
+  onChange={[MockFunction]}
+  table={[Function]}
+/>
+`;

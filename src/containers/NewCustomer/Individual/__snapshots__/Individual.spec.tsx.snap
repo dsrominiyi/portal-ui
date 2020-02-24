@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewIndividual NewIndividual matches snapshot 1`] = `
+<div
+  className="pageContainer"
+>
+  <PageTitle
+    text="New Individual"
+  />
+  <InfoBox
+    items={
+      Array [
+        <React.Fragment>
+          <div
+            className="formSection"
+            test-id="new-individual-details"
+          >
+            <h3>
+              Customer Details
+            </h3>
+            <SelectTitle
+              onChange={[Function]}
+              title=""
+            />
+            <NameFields
+              forename=""
+              middleName=""
+              onChange={[Function]}
+              surname=""
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <MultiChoice
+                    attributes={
+                      Object {
+                        "test-id": "select-gender",
+                      }
+                    }
+                    onClick={[Function]}
+                    options={
+                      Array [
+                        "Male",
+                        "Female",
+                        "Not Specified",
+                      ]
+                    }
+                    selectedOption=""
+                  />,
+                ]
+              }
+              text="Gender"
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <DateFields
+                    onChange={[Function]}
+                    testId="date-of-birth"
+                    values={
+                      Object {
+                        "dd": "",
+                        "mm": "",
+                        "yyyy": "",
+                      }
+                    }
+                  />,
+                ]
+              }
+              text="Date of birth"
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <MultiChoice
+                    attributes={
+                      Object {
+                        "test-id": "select-resident-since-birth",
+                      }
+                    }
+                    onClick={[Function]}
+                    options={
+                      Array [
+                        "Yes",
+                        "No",
+                      ]
+                    }
+                  />,
+                ]
+              }
+              text="Resident Since Birth"
+            />
+            <SubQuestion
+              items={
+                Array [
+                  <QuestionBox
+                    inputFields={
+                      Array [
+                        <DateFields
+                          onChange={[Function]}
+                          testId="residency-date"
+                          values={
+                            Object {
+                              "dd": "",
+                              "mm": "",
+                              "yyyy": "",
+                            }
+                          }
+                        />,
+                      ]
+                    }
+                    text="Residency date"
+                  />,
+                ]
+              }
+              visible={false}
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <Dropdown
+                    attributes={
+                      Object {
+                        "test-id": "select-marital-status",
+                      }
+                    }
+                    label="Marital status"
+                    onChange={[Function]}
+                    options={
+                      Array [
+                        "Common Law",
+                        "Divorced",
+                        "Married",
+                        "Organisation",
+                        "Registered Civil Partnership",
+                        "Single",
+                        "Widow(er)",
+                      ]
+                    }
+                    selected=""
+                  />,
+                ]
+              }
+            />
+            <AddContactDetailsField
+              onChange={[Function]}
+            />
+            <AddAdditionalContactsField
+              onChange={[Function]}
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <MultiChoice
+                    attributes={
+                      Object {
+                        "test-id": "select-homeowner-status",
+                      }
+                    }
+                    onClick={[Function]}
+                    options={
+                      Array [
+                        "Yes",
+                        "No",
+                      ]
+                    }
+                  />,
+                ]
+              }
+              text="Homeowner"
+            />
+          </div>
+          <div
+            className="formSection"
+            test-id="new-individual-address-details"
+          >
+            <h3>
+              Address Details
+            </h3>
+            <AddAddressesField
+              addresses={Array []}
+              customerType="Individual"
+              onChange={[Function]}
+            />
+          </div>
+          <ContactPreferencesForm
+            contactDetails={Array []}
+            onChange={[Function]}
+          />
+        </React.Fragment>,
+      ]
+    }
+  />
+</div>
+`;

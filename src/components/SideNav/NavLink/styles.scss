@@ -1,0 +1,31 @@
+@import '../../../style/_vars';
+
+a.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: $brand-white;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover,
+  &.active,
+  &.active:hover {
+    color: $brand-light-green;
+  }
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  &.mini {
+    flex-direction: column;
+    font-size: 0.65rem;
+    text-align: center;
+
+    i {
+      margin: 0 0 0.25rem 0;
+    }
+  }
+}

@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubsidiariesTable SubsidiariesTable matches snapshot 1`] = `
+<TableDisplay
+  additionalClasses={
+    Array [
+      "subsidiariesTable",
+    ]
+  }
+  headers={
+    Array [
+      "Company Name",
+      "Trading Name",
+      "Legal Status",
+      "Trading Since",
+      "Registration Number",
+    ]
+  }
+  onDelete={[Function]}
+  onEdit={[Function]}
+  rows={
+    Array [
+      Array [
+        "Datamatters",
+        "Datamatters",
+        "Limited",
+        "01/01/1980",
+        "01234567",
+      ],
+      Array [
+        "Datamatters",
+        "Datamatters",
+        "Limited",
+        "01/01/1980",
+        "01234567",
+      ],
+    ]
+  }
+/>
+`;
+
+exports[`SubsidiariesTable SubsidiariesTable with a missing tradingSinceDate matches snapshot 1`] = `
+<TableDisplay
+  additionalClasses={
+    Array [
+      "subsidiariesTable",
+    ]
+  }
+  headers={
+    Array [
+      "Company Name",
+      "Trading Name",
+      "Legal Status",
+      "Trading Since",
+      "Registration Number",
+    ]
+  }
+  onDelete={[Function]}
+  onEdit={[Function]}
+  rows={
+    Array [
+      Array [
+        "Datamatters",
+        "Datamatters",
+        "Limited",
+        "01/01/1980",
+        "01234567",
+      ],
+      Array [
+        "Datamatters",
+        "Datamatters",
+        "Limited",
+        "",
+        "01234567",
+      ],
+    ]
+  }
+/>
+`;

@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.loader.json",
+  "exclude": [
+    "node_modules"
+  ]
+}

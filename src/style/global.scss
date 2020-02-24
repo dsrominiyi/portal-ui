@@ -1,0 +1,48 @@
+@import './reset';
+@import './vars';
+
+@font-face {
+  font-family: 'BrandonText';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/BrandonText-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BrandonText';
+  font-style: italic;
+  font-weight: normal;
+  src: url('../assets/fonts/BrandonText-RegularItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BrandonText';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/fonts/BrandonText-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'BrandonText';
+  font-style: italic;
+  font-weight: bold;
+  src: url('../assets/fonts/BrandonText-BoldItalic.otf') format('opentype');
+}
+
+body {
+  font-family: 'BrandonText', Arial, Helvetica, sans-serif !important;
+  background-color: $brand-dark-white;
+  width: 100%;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.5rem 2.25rem;
+}

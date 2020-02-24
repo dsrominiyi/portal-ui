@@ -1,0 +1,60 @@
+@import '../../style/vars';
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.4em;
+  cursor: pointer;
+  text-decoration: none;
+
+  .badge {
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: top;
+    border-radius: 6px;
+
+    &:empty {
+      display: none;
+    }
+
+    &.badge-count {
+      position: relative;
+      -webkit-transform: scale(0.6);
+      transform: scale(0.6);
+      -webkit-transform-origin: top right;
+      transform-origin: top right;
+      margin-left: -1rem;
+      margin-top: -0.2rem;
+      color: #fff;
+    }
+
+    &.primary {
+      background-color: $brand-primary;
+    }
+
+    &.secondary {
+      background-color: $brand-secondary;
+    }
+
+    &.info {
+      background-color: $brand-info;
+    }
+
+    &.success {
+      background-color: $brand-success;
+    }
+
+    &.warning {
+      background-color: $brand-warning;
+    }
+
+    &.danger {
+      background-color: $brand-danger;
+    }
+  }
+}

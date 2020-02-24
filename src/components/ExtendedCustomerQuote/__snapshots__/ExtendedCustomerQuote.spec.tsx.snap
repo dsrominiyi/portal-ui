@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerQuote component story renders match snapshots: declined 1`] = `""`;
+
+exports[`CustomerQuote component story renders match snapshots: fullQuote 1`] = `
+<div
+  className="quoteContainer"
+  onClick={[Function]}
+>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Reference
+    </div>
+    <h4>
+      12345
+    </h4>
+  </div>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Private Car
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <svg />
+    </div>
+  </div>
+  <div
+    className="quoteWidgetWide"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Inception Date
+    </div>
+    <h4>
+      01/12/2019
+    </h4>
+  </div>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Sales Executive
+    </div>
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "James",
+          "middleName": "Roland",
+          "surname": "Fowler",
+        }
+      }
+    />
+  </div>
+  <div
+    className="quoteWidgetWide"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Best Rate
+    </div>
+    <h4>
+      £392.63
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`CustomerQuote component story renders match snapshots: noPhoto 1`] = `
+<div
+  className="quoteContainer"
+  onClick={[Function]}
+>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Reference
+    </div>
+    <h4>
+      12345
+    </h4>
+  </div>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Private Car
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <svg />
+    </div>
+  </div>
+  <div
+    className="quoteWidgetWide"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Inception Date
+    </div>
+    <h4>
+      01/12/2019
+    </h4>
+  </div>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Sales Executive
+    </div>
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      name={
+        Object {
+          "forename": "James",
+          "surname": "Fowler",
+        }
+      }
+    />
+  </div>
+  <div
+    className="quoteWidgetWide"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Best Rate
+    </div>
+    <h4>
+      £392.63
+    </h4>
+  </div>
+</div>
+`;
+
+exports[`CustomerQuote component story renders match snapshots: noRate 1`] = `
+<div
+  className="quoteContainer"
+  onClick={[Function]}
+>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Reference
+    </div>
+    <h4>
+      12345
+    </h4>
+  </div>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Private Car
+    </div>
+    <div
+      className="iconContainer"
+    >
+      <svg />
+    </div>
+  </div>
+  <div
+    className="quoteWidgetWide"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Inception Date
+    </div>
+    <h4>
+      01/12/2019
+    </h4>
+  </div>
+  <div
+    className="quoteWidget"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Sales Executive
+    </div>
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "James",
+          "middleName": "Roland",
+          "surname": "Fowler",
+        }
+      }
+    />
+  </div>
+  <div
+    className="quoteWidgetWide"
+  >
+    <div
+      className="quoteHeader"
+    >
+      Best Rate
+    </div>
+    <h4>
+      No Quote
+    </h4>
+  </div>
+</div>
+`;

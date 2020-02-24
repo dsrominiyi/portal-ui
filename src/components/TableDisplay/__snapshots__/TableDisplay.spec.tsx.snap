@@ -1,0 +1,1002 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableDisplay component story renders match snapshots: noResults 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="bottomBorder"
+  >
+    <tr>
+      <th
+        className="tableCell"
+        key="0"
+      >
+        Driver
+      </th>
+      <th
+        className="tableCell"
+        key="1"
+      >
+        Date of Birth
+      </th>
+      <th
+        className="tableCell"
+        key="2"
+      >
+        Licence Number
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td
+        className="tableCell"
+      >
+        No Drivers
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`TableDisplay component story renders match snapshots: results 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="bottomBorder"
+  >
+    <tr>
+      <th
+        className="tableCell"
+        key="0"
+      >
+        Driver
+      </th>
+      <th
+        className="tableCell"
+        key="1"
+      >
+        Date of Birth
+      </th>
+      <th
+        className="tableCell"
+        key="2"
+      >
+        Licence Number
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="0"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr Ron Invasion
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1983-04-18
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_0"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+      <td
+        className="tableCell"
+        key="delete_0"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+    <tr
+      key="1"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Miss Tash Otte
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1984-07-28
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_1"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+      <td
+        className="tableCell"
+        key="delete_1"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+    <tr
+      key="2"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr E Driver
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1952-09-04
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_2"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+      <td
+        className="tableCell"
+        key="delete_2"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`TableDisplay component story renders match snapshots: resultsDeleteButton 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="bottomBorder"
+  >
+    <tr>
+      <th
+        className="tableCell"
+        key="0"
+      >
+        Driver
+      </th>
+      <th
+        className="tableCell"
+        key="1"
+      >
+        Date of Birth
+      </th>
+      <th
+        className="tableCell"
+        key="2"
+      >
+        Licence Number
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="0"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr Ron Invasion
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1983-04-18
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="delete_0"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+    <tr
+      key="1"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Miss Tash Otte
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1984-07-28
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="delete_1"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+    <tr
+      key="2"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr E Driver
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1952-09-04
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="delete_2"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`TableDisplay component story renders match snapshots: resultsEditButton 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="bottomBorder"
+  >
+    <tr>
+      <th
+        className="tableCell"
+        key="0"
+      >
+        Driver
+      </th>
+      <th
+        className="tableCell"
+        key="1"
+      >
+        Date of Birth
+      </th>
+      <th
+        className="tableCell"
+        key="2"
+      >
+        Licence Number
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="0"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr Ron Invasion
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1983-04-18
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_0"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+    </tr>
+    <tr
+      key="1"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Miss Tash Otte
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1984-07-28
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_1"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+    </tr>
+    <tr
+      key="2"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr E Driver
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1952-09-04
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_2"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`TableDisplay component story renders match snapshots: resultsNoButtons 1`] = `
+<table
+  className="table"
+>
+  <thead
+    className="bottomBorder"
+  >
+    <tr>
+      <th
+        className="tableCell"
+        key="0"
+      >
+        Driver
+      </th>
+      <th
+        className="tableCell"
+        key="1"
+      >
+        Date of Birth
+      </th>
+      <th
+        className="tableCell"
+        key="2"
+      >
+        Licence Number
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="0"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr Ron Invasion
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1983-04-18
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+    </tr>
+    <tr
+      key="1"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Miss Tash Otte
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1984-07-28
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+    </tr>
+    <tr
+      key="2"
+      test-id=""
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr E Driver
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1952-09-04
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`TableDisplay component story renders match snapshots: withTestId 1`] = `
+<table
+  className="table"
+  test-id="test-table"
+>
+  <thead
+    className="bottomBorder"
+  >
+    <tr>
+      <th
+        className="tableCell"
+        key="0"
+      >
+        Driver
+      </th>
+      <th
+        className="tableCell"
+        key="1"
+      >
+        Date of Birth
+      </th>
+      <th
+        className="tableCell"
+        key="2"
+      >
+        Licence Number
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      key="0"
+      test-id="test-table_row-0"
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr Ron Invasion
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1983-04-18
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_0"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "test-table_edit-row-0",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+      <td
+        className="tableCell"
+        key="delete_0"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "test-table_delete-row-0",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+    <tr
+      key="1"
+      test-id="test-table_row-1"
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Miss Tash Otte
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1984-07-28
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_1"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "test-table_edit-row-1",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+      <td
+        className="tableCell"
+        key="delete_1"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "test-table_delete-row-1",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+    <tr
+      key="2"
+      test-id="test-table_row-2"
+    >
+      <td
+        className="tableCell"
+        key="0"
+      >
+        Mr E Driver
+      </td>
+      <td
+        className="tableCell"
+        key="1"
+      >
+        1952-09-04
+      </td>
+      <td
+        className="tableCell"
+        key="2"
+      >
+        xxxxxx xxxxx xxxxx
+      </td>
+      <td
+        className="tableCell"
+        key="edit_2"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "editButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "test-table_edit-row-2",
+            }
+          }
+          label={
+            <SvgPencil
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Secondary"
+        />
+      </td>
+      <td
+        className="tableCell"
+        key="delete_2"
+      >
+        <Button
+          additionalClasses={
+            Array [
+              "controlButton",
+              "deleteButton",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "test-table_delete-row-2",
+            }
+          }
+          label={
+            <SvgTrash
+              viewBox="0 0 20 20"
+            />
+          }
+          onClick={[Function]}
+          status="Danger"
+        />
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

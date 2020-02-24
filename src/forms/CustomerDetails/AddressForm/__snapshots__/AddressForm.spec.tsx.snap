@@ -1,0 +1,1039 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressForm snapshots AddressForm for company matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-address-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-type",
+            }
+          }
+          label="Type"
+          onChange={[Function]}
+          options={
+            Array [
+              "Home",
+              "Correspondence",
+            ]
+          }
+        />,
+      ]
+    }
+    key="Type"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "building-name-number",
+            }
+          }
+          label="Building name/number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Building name/number"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <Lookup
+          attributes={
+            Object {
+              "test-id": "postcode-lookup",
+            }
+          }
+          buttonLabel="Find Address"
+          label="Postcode"
+          onChange={[Function]}
+          secondaryAction={[Function]}
+          secondaryButtonLabel="Enter Manually"
+          value=""
+        />,
+      ]
+    }
+    key="Postcode"
+    text=""
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "organisation",
+                  }
+                }
+                label="Organisation"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-name",
+                  }
+                }
+                label="Building name"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-number",
+                  }
+                }
+                label="Building number"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-1",
+                  }
+                }
+                label="First Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-2",
+                  }
+                }
+                label="Second Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "town",
+                  }
+                }
+                label="Town"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "county",
+                  }
+                }
+                label="County"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "postcode",
+                  }
+                }
+                label="Postcode"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+      ]
+    }
+    visible={false}
+  />
+</div>
+`;
+
+exports[`AddressForm snapshots AddressForm for individual matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-address-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-type",
+            }
+          }
+          label="Type"
+          onChange={[Function]}
+          options={
+            Array [
+              "Correspondence",
+              "Trading",
+              "Registered",
+            ]
+          }
+        />,
+      ]
+    }
+    key="Type"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "building-name-number",
+            }
+          }
+          label="Building name/number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Building name/number"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <Lookup
+          attributes={
+            Object {
+              "test-id": "postcode-lookup",
+            }
+          }
+          buttonLabel="Find Address"
+          label="Postcode"
+          onChange={[Function]}
+          secondaryAction={[Function]}
+          secondaryButtonLabel="Enter Manually"
+          value=""
+        />,
+      ]
+    }
+    key="Postcode"
+    text=""
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "organisation",
+                  }
+                }
+                label="Organisation"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-name",
+                  }
+                }
+                label="Building name"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-number",
+                  }
+                }
+                label="Building number"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-1",
+                  }
+                }
+                label="First Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-2",
+                  }
+                }
+                label="Second Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "town",
+                  }
+                }
+                label="Town"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "county",
+                  }
+                }
+                label="County"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "postcode",
+                  }
+                }
+                label="Postcode"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+      ]
+    }
+    visible={false}
+  />
+</div>
+`;
+
+exports[`AddressForm snapshots AddressForm with initial values matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-address-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-type",
+            }
+          }
+          label="Type"
+          onChange={[Function]}
+          options={
+            Array [
+              "Home",
+              "Correspondence",
+            ]
+          }
+        />,
+      ]
+    }
+    key="Type"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "building-name-number",
+            }
+          }
+          label="Building name/number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Building name/number"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <Lookup
+          attributes={
+            Object {
+              "test-id": "postcode-lookup",
+            }
+          }
+          buttonLabel="Find Address"
+          label="Postcode"
+          onChange={[Function]}
+          secondaryAction={[Function]}
+          secondaryButtonLabel="Enter Manually"
+          value=""
+        />,
+      ]
+    }
+    key="Postcode"
+    text=""
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "organisation",
+                  }
+                }
+                label="Organisation"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-name",
+                  }
+                }
+                label="Building name"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-number",
+                  }
+                }
+                label="Building number"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-1",
+                  }
+                }
+                label="First Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-2",
+                  }
+                }
+                label="Second Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "town",
+                  }
+                }
+                label="Town"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "county",
+                  }
+                }
+                label="County"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "postcode",
+                  }
+                }
+                label="Postcode"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+      ]
+    }
+    visible={false}
+  />
+</div>
+`;
+
+exports[`AddressForm snapshots SubsidiaryForm without form errors matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-address-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-type",
+            }
+          }
+          label="Type"
+          onChange={[Function]}
+          options={
+            Array [
+              "Correspondence",
+              "Trading",
+              "Registered",
+            ]
+          }
+        />,
+      ]
+    }
+    key="Type"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "building-name-number",
+            }
+          }
+          label="Building name/number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Building name/number"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <Lookup
+          attributes={
+            Object {
+              "test-id": "postcode-lookup",
+            }
+          }
+          buttonLabel="Find Address"
+          label="Postcode"
+          onChange={[Function]}
+          secondaryAction={[Function]}
+          secondaryButtonLabel="Enter Manually"
+          value=""
+        />,
+      ]
+    }
+    key="Postcode"
+    text=""
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "organisation",
+                  }
+                }
+                label="Organisation"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-name",
+                  }
+                }
+                label="Building name"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "building-number",
+                  }
+                }
+                label="Building number"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-1",
+                  }
+                }
+                label="First Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "line-2",
+                  }
+                }
+                label="Second Line"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "town",
+                  }
+                }
+                label="Town"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "county",
+                  }
+                }
+                label="County"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+        <QuestionBox
+          inputFields={
+            Array [
+              <TextField
+                additionalClasses={
+                  Array [
+                    "formTextField",
+                  ]
+                }
+                attributes={
+                  Object {
+                    "test-id": "postcode",
+                  }
+                }
+                label="Postcode"
+                onChange={[Function]}
+                value=""
+              />,
+            ]
+          }
+          text=""
+        />,
+      ]
+    }
+    visible={false}
+  />
+</div>
+`;

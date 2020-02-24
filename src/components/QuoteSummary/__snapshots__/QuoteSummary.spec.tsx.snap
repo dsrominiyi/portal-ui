@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteSummary component story renders match snapshots: withRate 1`] = `
+<div
+  className="quoteSummary"
+>
+  <div>
+    Inception Date
+  </div>
+  <div>
+    12/12/2019
+  </div>
+  <div
+    className="rates"
+  >
+     £56.59
+  </div>
+</div>
+`;
+
+exports[`QuoteSummary component story renders match snapshots: withoutRate 1`] = `
+<div
+  className="quoteSummary"
+>
+  <div>
+    Inception Date
+  </div>
+  <div>
+    12/12/2019
+  </div>
+  <div
+    className="rates"
+  >
+    No Rates
+  </div>
+</div>
+`;

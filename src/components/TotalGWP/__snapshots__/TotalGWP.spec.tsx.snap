@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TotalGWP component story renders match snapshots: withNoPolicies 1`] = `
+<div
+  className="totalGwp"
+>
+  <div
+    className="gwpTotal"
+  >
+    £0
+  </div>
+  <div
+    className="gwpText"
+  >
+    Total GWP
+  </div>
+</div>
+`;
+
+exports[`TotalGWP component story renders match snapshots: withPolicies 1`] = `
+<div
+  className="totalGwp"
+>
+  <div
+    className="gwpTotal"
+  >
+    £2417.07
+  </div>
+  <div
+    className="gwpText"
+  >
+    Total GWP
+  </div>
+</div>
+`;

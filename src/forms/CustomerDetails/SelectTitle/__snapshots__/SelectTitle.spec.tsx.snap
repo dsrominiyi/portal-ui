@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectTitle SelectTitle matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    errorText="Please confirm title"
+    inputFields={
+      Array [
+        <MultiChoice
+          attributes={
+            Object {
+              "test-id": "select-standard-title",
+            }
+          }
+          onClick={[Function]}
+          options={
+            Array [
+              "Mr",
+              "Mrs",
+              "Miss",
+              "Ms",
+              "Other",
+            ]
+          }
+          selectedOption=""
+        />,
+      ]
+    }
+    text="Title"
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <Dropdown
+                attributes={
+                  Object {
+                    "test-id": "select-alternative-title",
+                  }
+                }
+                label="Please select title"
+                onChange={[Function]}
+                options={
+                  Array [
+                    "Mx",
+                    "Master",
+                    "Brig.",
+                    "Bro.",
+                    "Capt.",
+                    "Chf.",
+                    "Col.",
+                    "Comdr.",
+                    "Comm.",
+                    "Cllr.",
+                    "Dame",
+                    "Dr.",
+                    "Exct.",
+                    "F/Lt.",
+                    "Gen.",
+                    "Hon.",
+                    "Judge",
+                    "Lady",
+                    "Lt.",
+                    "Lord",
+                    "Maj.",
+                    "Prof",
+                    "Rabbi",
+                    "Rev.",
+                    "Rt Rev",
+                    "Sir",
+                    "Sister",
+                    "Sq Ldr",
+                    "Rt Hon",
+                    "V. Rev",
+                    "W/Cdr",
+                  ]
+                }
+              />,
+            ]
+          }
+        />,
+      ]
+    }
+    visible={false}
+  />
+</Fragment>
+`;

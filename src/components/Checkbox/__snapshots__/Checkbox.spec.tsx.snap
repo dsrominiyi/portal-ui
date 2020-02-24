@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component story renders match snapshots: checked 1`] = `
+<div
+  className="checkboxContainer"
+>
+  <input
+    checked={true}
+    className="checked checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Remember me
+  <SvgCheck
+    viewBox="0 0 20 20"
+  />
+</div>
+`;
+
+exports[`Checkbox component story renders match snapshots: invalid 1`] = `
+<div
+  className="checkboxContainer"
+>
+  <input
+    checked={false}
+    className="checkbox isInvalid"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  I agree
+</div>
+`;
+
+exports[`Checkbox component story renders match snapshots: unchecked 1`] = `
+<div
+  className="checkboxContainer"
+>
+  <input
+    checked={false}
+    className="checkbox"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  Remember me
+</div>
+`;

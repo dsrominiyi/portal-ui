@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer matches snapshot for a company customer 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Quotes"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div>
+    <InfoBox
+      additionalClasses={
+        Array [
+          "fullWidth",
+        ]
+      }
+      header="Datamatters (Company)"
+      items={
+        Array [
+          <ExtendedCustomerQuote
+            quote={
+              Object {
+                "id": "12345",
+                "insurer": "We Insure Any Car",
+                "rate": 392.63,
+                "salesExecutive": Object {
+                  "name": Object {
+                    "forename": "James",
+                    "middleName": "Roland",
+                    "surname": "Fowler",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                  "username": "Jimmy123",
+                },
+                "startDate": "2019-12-01",
+                "type": "pc",
+              }
+            }
+          />,
+          <ExtendedCustomerQuote
+            quote={
+              Object {
+                "id": "12346",
+                "insurer": "I M Xpensive",
+                "rate": 1485.21,
+                "salesExecutive": Object {
+                  "name": Object {
+                    "forename": "John",
+                    "middleName": "Robert",
+                    "surname": "Tucker",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                  "username": "JohnABC",
+                },
+                "startDate": "2019-12-01",
+                "type": "pc",
+              }
+            }
+          />,
+          <ExtendedCustomerQuote
+            quote={
+              Object {
+                "decline": "Unnaceptable CCJs",
+                "id": "12347",
+                "insurer": "ABC Insurance",
+                "rate": 0,
+                "salesExecutive": Object {
+                  "name": Object {
+                    "forename": "Connor",
+                    "middleName": "Adam",
+                    "surname": "Robertson",
+                  },
+                  "username": "Connor123",
+                },
+                "startDate": "2019-12-01",
+                "type": "pc",
+              }
+            }
+          />,
+        ]
+      }
+      useDivider={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`Customer matches snapshot for customer quotes 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Quotes"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div>
+    <InfoBox
+      additionalClasses={
+        Array [
+          "fullWidth",
+        ]
+      }
+      header="Mr John James Smith (Individual)"
+      items={
+        Array [
+          <ExtendedCustomerQuote
+            quote={
+              Object {
+                "id": "12345",
+                "insurer": "We Insure Any Car",
+                "rate": 392.63,
+                "salesExecutive": Object {
+                  "name": Object {
+                    "forename": "James",
+                    "middleName": "Roland",
+                    "surname": "Fowler",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                  "username": "Jimmy123",
+                },
+                "startDate": "2019-12-01",
+                "type": "pc",
+              }
+            }
+          />,
+          <ExtendedCustomerQuote
+            quote={
+              Object {
+                "id": "12346",
+                "insurer": "I M Xpensive",
+                "rate": 1485.21,
+                "salesExecutive": Object {
+                  "name": Object {
+                    "forename": "John",
+                    "middleName": "Robert",
+                    "surname": "Tucker",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                  "username": "JohnABC",
+                },
+                "startDate": "2019-12-01",
+                "type": "pc",
+              }
+            }
+          />,
+          <ExtendedCustomerQuote
+            quote={
+              Object {
+                "decline": "Unnaceptable CCJs",
+                "id": "12347",
+                "insurer": "ABC Insurance",
+                "rate": 0,
+                "salesExecutive": Object {
+                  "name": Object {
+                    "forename": "Connor",
+                    "middleName": "Adam",
+                    "surname": "Robertson",
+                  },
+                  "username": "Connor123",
+                },
+                "startDate": "2019-12-01",
+                "type": "pc",
+              }
+            }
+          />,
+        ]
+      }
+      useDivider={true}
+    />
+  </div>
+</div>
+`;
+
+exports[`Customer matches snapshot with no quotes associated 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Quotes"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div>
+    <InfoBox
+      additionalClasses={
+        Array [
+          "fullWidth",
+        ]
+      }
+      header="Mr John James Smith (Individual)"
+      items={Array []}
+      useDivider={true}
+    />
+  </div>
+</div>
+`;

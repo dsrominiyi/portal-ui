@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactPreferencesForm ContactPreferencesForm matches snapshot 1`] = `
+<div
+  className="formSection"
+>
+  <h3>
+    Marketing/Contact Preferences
+  </h3>
+  <QuestionBox
+    inputFields={
+      Array [
+        <MultiChoice
+          attributes={
+            Object {
+              "test-id": "select-marketing-consent-type",
+            }
+          }
+          disabledOptions={Array []}
+          onClick={[Function]}
+          options={
+            Array [
+              "Legitimate Interest",
+              "Face to Face",
+              "Phone",
+              "Email",
+              "Unsubscribe",
+            ]
+          }
+          selectedOption="Legitimate Interest"
+        />,
+      ]
+    }
+    text="Marketing preference consent type"
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <MultiChoice
+          attributes={
+            Object {
+              "test-id": "select-non-marketing-contact-method",
+            }
+          }
+          disabledOptions={Array []}
+          multiSelect={true}
+          onClick={[Function]}
+          options={
+            Array [
+              "Text Message",
+              "Phone",
+              "Email",
+              "Post",
+            ]
+          }
+          selectedOptions={Array []}
+        />,
+      ]
+    }
+    text="Non marketing contact methods"
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-referred-by",
+            }
+          }
+          label="Where did you hear about us?"
+          onChange={[Function]}
+          options={
+            Array [
+              "Practical Caravan",
+              "Lead Linkedin",
+              "C.V.R",
+              "Autotrader Motorhome",
+              "Yellow Pages",
+              "Cross-selling",
+              "Existing Business",
+              "Lapsed Caravan",
+              "Lapse CV",
+              "Lapsed Home",
+              "Ramsey Cricket Club",
+              "Central Marketing",
+              "Come Back Letter",
+              "Fleet",
+              "Stuarts Mailings",
+              "Truck Tele",
+              "Passing Trade",
+              "Old Magazine Adverts",
+              "Coachman Club",
+              "Referral From NHF",
+              "Recommended",
+              "Vernon Property",
+              "Insurecom Broker",
+            ]
+          }
+          selected=""
+        />,
+      ]
+    }
+  />
+</div>
+`;

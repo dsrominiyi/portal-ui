@@ -1,0 +1,30 @@
+@import '../../style/vars';
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 224px;
+  width: 224px;
+  background-color: $brand-dark-blue;
+  transition: flex 0.3s, width 0.3s;
+
+  &.mini {
+    flex: 0 0 104px;
+    width: 104px;
+  }
+}
+
+.header-container {
+  padding: 1.5rem;
+}
+
+.divider {
+  margin: 1rem;
+  border-bottom: 1px lighten($brand-dark-blue, 10%) solid;
+}
+
+.toggle-button {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}

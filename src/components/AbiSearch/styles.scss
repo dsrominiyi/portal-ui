@@ -1,0 +1,11 @@
+@import '../../style/vars';
+
+.hidden {
+  display: none;
+}
+
+.search-bar {
+  input {
+    max-width: 448px;
+  }
+}

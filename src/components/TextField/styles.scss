@@ -1,0 +1,76 @@
+@import '../../style/vars';
+
+.text-field {
+  display: block;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 0 10px;
+  height: 40px;
+  width: 100%;
+  border: 1px solid $brand-off-white;
+  background: $brand-white;
+  color: $brand-charcoal;
+  font-size: 1rem;
+  outline: none;
+  -webkit-appearance: none;
+  transition: 0.2s border;
+
+  &.is-invalid {
+    border: 1px solid $brand-danger;
+
+    &:focus {
+      border: 1px solid $brand-danger;
+    }
+  }
+
+  &::placeholder {
+    color: $brand-secondary;
+    opacity: 1;
+  }
+
+  &::-ms-input-placeholder {
+    color: $brand-secondary;
+  }
+
+  &:-ms-input-placeholder {
+    color: $brand-secondary;
+  }
+
+  &:focus {
+    border: 1px solid $brand-primary;
+  }
+
+  &.with-icon {
+    padding: 0 40px 0 10px;
+
+    &.reverse-icon-position {
+      padding: 0 10px 0 40px;
+    }
+  }
+}
+
+.field-icon {
+  position: absolute;
+  right: 0;
+  width: 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &.reverse-icon-position {
+    right: unset;
+  }
+
+  svg {
+    > * {
+      stroke: $brand-secondary;
+    }
+  }
+}

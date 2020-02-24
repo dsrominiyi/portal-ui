@@ -1,0 +1,89 @@
+@import '../../style/vars';
+
+img {
+  max-width: 100%;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: $brand-white;
+}
+
+.image-container {
+  flex: 50%;
+  background-image: url('../../assets/images/login-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.form-group {
+  flex: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 1 0 auto;
+  justify-content: center;
+  align-items: center;
+  max-height: 95px;
+  max-width: 55%;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: auto;
+  height: 95px;
+  object-fit: contain;
+  flex: 1 0 auto;
+}
+
+.form-field {
+  align-items: center;
+  width: 55%;
+  margin-bottom: 20px;
+}
+
+.form-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  margin: 10px 0 10px 0;
+}
+
+.form-link-container {
+  display: flex;
+  width: 50%;
+}
+
+.text-field {
+  > div:first-child {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.remember-me {
+  justify-content: flex-start;
+}
+
+.forgot-password {
+  justify-content: flex-end;
+}
+
+.login-button {
+  width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .image-container {
+    display: none;
+  }
+}

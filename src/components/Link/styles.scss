@@ -1,0 +1,12 @@
+@import '../../style/_vars';
+
+.link {
+  color: $brand-mid-grey;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: $brand-mid-grey;
+    text-decoration: underline;
+  }
+}

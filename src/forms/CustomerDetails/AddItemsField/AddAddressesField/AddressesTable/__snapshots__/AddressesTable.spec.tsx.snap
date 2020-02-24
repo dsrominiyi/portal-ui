@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddressesTable AddressesTable matches snapshot 1`] = `
+<TableDisplay
+  additionalClasses={
+    Array [
+      "addressesTable",
+    ]
+  }
+  headers={
+    Array [
+      "Address",
+      "Type",
+    ]
+  }
+  onDelete={[Function]}
+  onEdit={[Function]}
+  rows={
+    Array [
+      Array [
+        "Anyhouse, Any Road, ",
+        "Correspondence",
+      ],
+      Array [
+        "20, Any Street, ",
+        "Residential",
+      ],
+    ]
+  }
+/>
+`;
+
+exports[`AddressesTable AddressesTable with empty address matches snapshot 1`] = `
+<TableDisplay
+  additionalClasses={
+    Array [
+      "addressesTable",
+    ]
+  }
+  headers={
+    Array [
+      "Address",
+      "Type",
+    ]
+  }
+  onDelete={[Function]}
+  onEdit={[Function]}
+  rows={
+    Array [
+      Array [
+        ", , ",
+        "",
+      ],
+    ]
+  }
+/>
+`;

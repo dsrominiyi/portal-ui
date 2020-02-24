@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyHolderDetails component story renders match snapshots: policy 1`] = `
+<InfoBox
+  additionalHeaderClasses={
+    Array [
+      "infoBoxHeader",
+    ]
+  }
+  header="Policy: 12345"
+  items={
+    Array [
+      <div
+        className="policyHolderDetails"
+      >
+        <p
+          className="header"
+        >
+          Policyholder
+        </p>
+        <p
+          className="subHeader"
+        >
+          Mr John Smith
+        </p>
+        <p
+          className="textSection"
+        >
+          09/12/1987
+        </p>
+        <p
+          className="subHeader"
+        >
+          Address:
+        </p>
+        <p
+          className="textSection"
+        >
+          12, St Peters Road, Fib Street, Manchester, Bury, Greater Manchester, BL90DN
+        </p>
+        <p
+          className="subHeader"
+        >
+          Contact:
+        </p>
+        <p
+          className="textSection"
+        >
+          Work Number: 0800000000
+
+          Mobile Number: 07790000000
+
+          Work Email: john.smith@datamatters.co.uk
+        </p>
+      </div>,
+    ]
+  }
+  moreActions={
+    Array [
+      <Unknown
+        onClick={[Function]}
+      />,
+    ]
+  }
+  subHeader="Private Car"
+/>
+`;
+
+exports[`PolicyHolderDetails component story renders match snapshots: quote 1`] = `
+<InfoBox
+  additionalHeaderClasses={
+    Array [
+      "infoBoxHeader",
+    ]
+  }
+  header="Quote: 12345"
+  items={
+    Array [
+      <div
+        className="policyHolderDetails"
+      >
+        <p
+          className="header"
+        >
+          Policyholder
+        </p>
+        <p
+          className="subHeader"
+        >
+          Mr John Smith
+        </p>
+        <p
+          className="textSection"
+        >
+          09/12/1987
+        </p>
+        <p
+          className="subHeader"
+        >
+          Address:
+        </p>
+        <p
+          className="textSection"
+        >
+          12, St Peters Road, Fib Street, Manchester, Bury, Greater Manchester, BL90DN
+        </p>
+        <p
+          className="subHeader"
+        >
+          Contact:
+        </p>
+        <p
+          className="textSection"
+        >
+          Work Number: 0800000000
+
+          Mobile Number: 07790000000
+
+          Work Email: john.smith@datamatters.co.uk
+        </p>
+      </div>,
+    ]
+  }
+  moreActions={
+    Array [
+      <Unknown
+        onClick={[Function]}
+      />,
+    ]
+  }
+  subHeader="Private Car"
+/>
+`;

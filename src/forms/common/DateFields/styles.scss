@@ -1,0 +1,12 @@
+@import '../../../style/vars';
+
+.date-field {
+  display: inline-flex;
+  flex-direction: column;
+  width: 8rem;
+  margin-right: 5px;
+
+  > div:first-child {
+    color: $brand-stone-grey;
+  }
+}

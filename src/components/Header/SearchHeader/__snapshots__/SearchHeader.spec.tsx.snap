@@ -1,0 +1,1154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchHeader component story renders match snapshots: fourResults 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SearchHeader>
+    <Header
+      leftItems={
+        Array [
+          <SearchBar
+            additionalClasses={
+              Array [
+                "searchInput",
+              ]
+            }
+            buildMoreResultsUrl={[Function]}
+            buildUrl={[Function]}
+            searchFetchResults={[Function]}
+          />,
+        ]
+      }
+      rightItems={
+        Array [
+          <IconLink
+            icon={
+              <SvgComments
+                className="commentsIcon"
+              />
+            }
+            notificationCount={4}
+            status="Success"
+            title="Comments"
+          />,
+          <IconLink
+            icon={
+              <SvgBell
+                className="bellIcon"
+              />
+            }
+            notificationCount={2}
+            status="Warning"
+            title="Alerts"
+          />,
+          <UserLink
+            name={
+              Object {
+                "forename": "Test",
+                "surname": "User",
+              }
+            }
+          />,
+        ]
+      }
+    >
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="leftItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <SearchBar
+              additionalClasses={
+                Array [
+                  "searchInput",
+                ]
+              }
+              buildMoreResultsUrl={[Function]}
+              buildUrl={[Function]}
+              key="0"
+              searchFetchResults={[Function]}
+            >
+              <div
+                className="searchContainer searchInput"
+              >
+                <TextField
+                  additionalClasses={
+                    Array [
+                      "searchInput",
+                    ]
+                  }
+                  icon={
+                    <SvgSearch
+                      className="searchIcon"
+                    />
+                  }
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  reverseIconPosition={true}
+                  value=""
+                >
+                  <div
+                    className="textField searchInput"
+                  >
+                    <div
+                      className="inputContainer"
+                    >
+                      <input
+                        className="input withIcon reverseIconPosition"
+                        onChange={[Function]}
+                        placeholder="Search..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="fieldIcon reverseIconPosition"
+                      >
+                        <SvgSearch
+                          className="searchIcon"
+                        >
+                          <svg
+                            className="searchIcon"
+                            height={20}
+                            width={20}
+                          >
+                            <circle
+                              cx={9}
+                              cy={9}
+                              fill="none"
+                              r={7}
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                            <path
+                              d="M14 14l4 4-4-4z"
+                              fill="none"
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                          </svg>
+                        </SvgSearch>
+                      </span>
+                    </div>
+                  </div>
+                </TextField>
+                <div
+                  className="resultsContainer"
+                />
+              </div>
+            </SearchBar>
+          </div>
+        </div>
+        <div
+          className="rightItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <IconLink
+              icon={
+                <SvgComments
+                  className="commentsIcon"
+                />
+              }
+              key="0"
+              notificationCount={4}
+              status="Success"
+              title="Comments"
+            >
+              <a
+                className="iconLink"
+                title="Comments"
+              >
+                <SvgComments
+                  className="commentsIcon"
+                >
+                  <svg
+                    className="commentsIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M2 .5h17.5V13"
+                      fill="none"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M5 19.71V15H0V2h18v13H9.71L5 19.71zM1 14h5v3.29L9.29 14H17V3H1v11z"
+                    />
+                  </svg>
+                </SvgComments>
+                <span
+                  className="badge badgeCount success"
+                >
+                  4
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="1"
+          >
+            <IconLink
+              icon={
+                <SvgBell
+                  className="bellIcon"
+                />
+              }
+              key="1"
+              notificationCount={2}
+              status="Warning"
+              title="Alerts"
+            >
+              <a
+                className="iconLink"
+                title="Alerts"
+              >
+                <SvgBell
+                  className="bellIcon"
+                >
+                  <svg
+                    className="bellIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M17 15.5H3c-.01-.89.79-2.16 1.1-2.99.48-1.21.62-2.16 1.09-5.5.35-2.48.7-3.81 2.09-4.85.85-.6 2.09-.66 2.53-.66h.15s1.66-.09 2.71.67c1.41 1.03 1.75 2.37 2.1 4.85.49 3.33.63 4.29 1.1 5.5.33.82 1.14 2.09 1.13 2.98h0z"
+                      fill="none"
+                      stroke="#000"
+                      strokeWidth={1.1}
+                    />
+                    <path
+                      d="M12.39 16c0 1.37-1.04 2.43-2.48 2.43-1.43 0-2.49-1.06-2.49-2.43"
+                      fill="none"
+                      stroke="#000"
+                    />
+                  </svg>
+                </SvgBell>
+                <span
+                  className="badge badgeCount warning"
+                >
+                  2
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="2"
+          >
+            <UserLink
+              name={
+                Object {
+                  "forename": "Test",
+                  "surname": "User",
+                }
+              }
+            >
+              <div
+                className="userLink"
+              >
+                <div
+                  className="topbarDivider"
+                />
+                <div
+                  className="userContainer"
+                >
+                  <span
+                    className="userName"
+                  >
+                    Test User
+                  </span>
+                  <UserImage
+                    name={
+                      Object {
+                        "forename": "Test",
+                        "surname": "User",
+                      }
+                    }
+                  >
+                    <span
+                      className="defaultUserIcon"
+                    >
+                      TU
+                    </span>
+                  </UserImage>
+                </div>
+              </div>
+            </UserLink>
+          </div>
+        </div>
+      </div>
+    </Header>
+  </SearchHeader>
+</Provider>
+`;
+
+exports[`SearchHeader component story renders match snapshots: noResults 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SearchHeader>
+    <Header
+      leftItems={
+        Array [
+          <SearchBar
+            additionalClasses={
+              Array [
+                "searchInput",
+              ]
+            }
+            buildMoreResultsUrl={[Function]}
+            buildUrl={[Function]}
+            searchFetchResults={[Function]}
+          />,
+        ]
+      }
+      rightItems={
+        Array [
+          <IconLink
+            icon={
+              <SvgComments
+                className="commentsIcon"
+              />
+            }
+            notificationCount={4}
+            status="Success"
+            title="Comments"
+          />,
+          <IconLink
+            icon={
+              <SvgBell
+                className="bellIcon"
+              />
+            }
+            notificationCount={2}
+            status="Warning"
+            title="Alerts"
+          />,
+          <UserLink
+            name={
+              Object {
+                "forename": "Test",
+                "surname": "User",
+              }
+            }
+          />,
+        ]
+      }
+    >
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="leftItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <SearchBar
+              additionalClasses={
+                Array [
+                  "searchInput",
+                ]
+              }
+              buildMoreResultsUrl={[Function]}
+              buildUrl={[Function]}
+              key="0"
+              searchFetchResults={[Function]}
+            >
+              <div
+                className="searchContainer searchInput"
+              >
+                <TextField
+                  additionalClasses={
+                    Array [
+                      "searchInput",
+                    ]
+                  }
+                  icon={
+                    <SvgSearch
+                      className="searchIcon"
+                    />
+                  }
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  reverseIconPosition={true}
+                  value=""
+                >
+                  <div
+                    className="textField searchInput"
+                  >
+                    <div
+                      className="inputContainer"
+                    >
+                      <input
+                        className="input withIcon reverseIconPosition"
+                        onChange={[Function]}
+                        placeholder="Search..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="fieldIcon reverseIconPosition"
+                      >
+                        <SvgSearch
+                          className="searchIcon"
+                        >
+                          <svg
+                            className="searchIcon"
+                            height={20}
+                            width={20}
+                          >
+                            <circle
+                              cx={9}
+                              cy={9}
+                              fill="none"
+                              r={7}
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                            <path
+                              d="M14 14l4 4-4-4z"
+                              fill="none"
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                          </svg>
+                        </SvgSearch>
+                      </span>
+                    </div>
+                  </div>
+                </TextField>
+                <div
+                  className="resultsContainer"
+                />
+              </div>
+            </SearchBar>
+          </div>
+        </div>
+        <div
+          className="rightItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <IconLink
+              icon={
+                <SvgComments
+                  className="commentsIcon"
+                />
+              }
+              key="0"
+              notificationCount={4}
+              status="Success"
+              title="Comments"
+            >
+              <a
+                className="iconLink"
+                title="Comments"
+              >
+                <SvgComments
+                  className="commentsIcon"
+                >
+                  <svg
+                    className="commentsIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M2 .5h17.5V13"
+                      fill="none"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M5 19.71V15H0V2h18v13H9.71L5 19.71zM1 14h5v3.29L9.29 14H17V3H1v11z"
+                    />
+                  </svg>
+                </SvgComments>
+                <span
+                  className="badge badgeCount success"
+                >
+                  4
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="1"
+          >
+            <IconLink
+              icon={
+                <SvgBell
+                  className="bellIcon"
+                />
+              }
+              key="1"
+              notificationCount={2}
+              status="Warning"
+              title="Alerts"
+            >
+              <a
+                className="iconLink"
+                title="Alerts"
+              >
+                <SvgBell
+                  className="bellIcon"
+                >
+                  <svg
+                    className="bellIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M17 15.5H3c-.01-.89.79-2.16 1.1-2.99.48-1.21.62-2.16 1.09-5.5.35-2.48.7-3.81 2.09-4.85.85-.6 2.09-.66 2.53-.66h.15s1.66-.09 2.71.67c1.41 1.03 1.75 2.37 2.1 4.85.49 3.33.63 4.29 1.1 5.5.33.82 1.14 2.09 1.13 2.98h0z"
+                      fill="none"
+                      stroke="#000"
+                      strokeWidth={1.1}
+                    />
+                    <path
+                      d="M12.39 16c0 1.37-1.04 2.43-2.48 2.43-1.43 0-2.49-1.06-2.49-2.43"
+                      fill="none"
+                      stroke="#000"
+                    />
+                  </svg>
+                </SvgBell>
+                <span
+                  className="badge badgeCount warning"
+                >
+                  2
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="2"
+          >
+            <UserLink
+              name={
+                Object {
+                  "forename": "Test",
+                  "surname": "User",
+                }
+              }
+            >
+              <div
+                className="userLink"
+              >
+                <div
+                  className="topbarDivider"
+                />
+                <div
+                  className="userContainer"
+                >
+                  <span
+                    className="userName"
+                  >
+                    Test User
+                  </span>
+                  <UserImage
+                    name={
+                      Object {
+                        "forename": "Test",
+                        "surname": "User",
+                      }
+                    }
+                  >
+                    <span
+                      className="defaultUserIcon"
+                    >
+                      TU
+                    </span>
+                  </UserImage>
+                </div>
+              </div>
+            </UserLink>
+          </div>
+        </div>
+      </div>
+    </Header>
+  </SearchHeader>
+</Provider>
+`;
+
+exports[`SearchHeader component story renders match snapshots: noUser 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SearchHeader>
+    <Header
+      leftItems={
+        Array [
+          <SearchBar
+            additionalClasses={
+              Array [
+                "searchInput",
+              ]
+            }
+            buildMoreResultsUrl={[Function]}
+            buildUrl={[Function]}
+            searchFetchResults={[Function]}
+          />,
+        ]
+      }
+      rightItems={
+        Array [
+          <IconLink
+            icon={
+              <SvgComments
+                className="commentsIcon"
+              />
+            }
+            notificationCount={4}
+            status="Success"
+            title="Comments"
+          />,
+          <IconLink
+            icon={
+              <SvgBell
+                className="bellIcon"
+              />
+            }
+            notificationCount={2}
+            status="Warning"
+            title="Alerts"
+          />,
+          undefined,
+        ]
+      }
+    >
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="leftItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <SearchBar
+              additionalClasses={
+                Array [
+                  "searchInput",
+                ]
+              }
+              buildMoreResultsUrl={[Function]}
+              buildUrl={[Function]}
+              key="0"
+              searchFetchResults={[Function]}
+            >
+              <div
+                className="searchContainer searchInput"
+              >
+                <TextField
+                  additionalClasses={
+                    Array [
+                      "searchInput",
+                    ]
+                  }
+                  icon={
+                    <SvgSearch
+                      className="searchIcon"
+                    />
+                  }
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  reverseIconPosition={true}
+                  value=""
+                >
+                  <div
+                    className="textField searchInput"
+                  >
+                    <div
+                      className="inputContainer"
+                    >
+                      <input
+                        className="input withIcon reverseIconPosition"
+                        onChange={[Function]}
+                        placeholder="Search..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="fieldIcon reverseIconPosition"
+                      >
+                        <SvgSearch
+                          className="searchIcon"
+                        >
+                          <svg
+                            className="searchIcon"
+                            height={20}
+                            width={20}
+                          >
+                            <circle
+                              cx={9}
+                              cy={9}
+                              fill="none"
+                              r={7}
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                            <path
+                              d="M14 14l4 4-4-4z"
+                              fill="none"
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                          </svg>
+                        </SvgSearch>
+                      </span>
+                    </div>
+                  </div>
+                </TextField>
+                <div
+                  className="resultsContainer"
+                />
+              </div>
+            </SearchBar>
+          </div>
+        </div>
+        <div
+          className="rightItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <IconLink
+              icon={
+                <SvgComments
+                  className="commentsIcon"
+                />
+              }
+              key="0"
+              notificationCount={4}
+              status="Success"
+              title="Comments"
+            >
+              <a
+                className="iconLink"
+                title="Comments"
+              >
+                <SvgComments
+                  className="commentsIcon"
+                >
+                  <svg
+                    className="commentsIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M2 .5h17.5V13"
+                      fill="none"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M5 19.71V15H0V2h18v13H9.71L5 19.71zM1 14h5v3.29L9.29 14H17V3H1v11z"
+                    />
+                  </svg>
+                </SvgComments>
+                <span
+                  className="badge badgeCount success"
+                >
+                  4
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="1"
+          >
+            <IconLink
+              icon={
+                <SvgBell
+                  className="bellIcon"
+                />
+              }
+              key="1"
+              notificationCount={2}
+              status="Warning"
+              title="Alerts"
+            >
+              <a
+                className="iconLink"
+                title="Alerts"
+              >
+                <SvgBell
+                  className="bellIcon"
+                >
+                  <svg
+                    className="bellIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M17 15.5H3c-.01-.89.79-2.16 1.1-2.99.48-1.21.62-2.16 1.09-5.5.35-2.48.7-3.81 2.09-4.85.85-.6 2.09-.66 2.53-.66h.15s1.66-.09 2.71.67c1.41 1.03 1.75 2.37 2.1 4.85.49 3.33.63 4.29 1.1 5.5.33.82 1.14 2.09 1.13 2.98h0z"
+                      fill="none"
+                      stroke="#000"
+                      strokeWidth={1.1}
+                    />
+                    <path
+                      d="M12.39 16c0 1.37-1.04 2.43-2.48 2.43-1.43 0-2.49-1.06-2.49-2.43"
+                      fill="none"
+                      stroke="#000"
+                    />
+                  </svg>
+                </SvgBell>
+                <span
+                  className="badge badgeCount warning"
+                >
+                  2
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="2"
+          />
+        </div>
+      </div>
+    </Header>
+  </SearchHeader>
+</Provider>
+`;
+
+exports[`SearchHeader component story renders match snapshots: twelveResults 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <SearchHeader>
+    <Header
+      leftItems={
+        Array [
+          <SearchBar
+            additionalClasses={
+              Array [
+                "searchInput",
+              ]
+            }
+            buildMoreResultsUrl={[Function]}
+            buildUrl={[Function]}
+            searchFetchResults={[Function]}
+          />,
+        ]
+      }
+      rightItems={
+        Array [
+          <IconLink
+            icon={
+              <SvgComments
+                className="commentsIcon"
+              />
+            }
+            notificationCount={4}
+            status="Success"
+            title="Comments"
+          />,
+          <IconLink
+            icon={
+              <SvgBell
+                className="bellIcon"
+              />
+            }
+            notificationCount={2}
+            status="Warning"
+            title="Alerts"
+          />,
+          <UserLink
+            name={
+              Object {
+                "forename": "Test",
+                "surname": "User",
+              }
+            }
+          />,
+        ]
+      }
+    >
+      <div
+        className="headerContainer"
+      >
+        <div
+          className="leftItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <SearchBar
+              additionalClasses={
+                Array [
+                  "searchInput",
+                ]
+              }
+              buildMoreResultsUrl={[Function]}
+              buildUrl={[Function]}
+              key="0"
+              searchFetchResults={[Function]}
+            >
+              <div
+                className="searchContainer searchInput"
+              >
+                <TextField
+                  additionalClasses={
+                    Array [
+                      "searchInput",
+                    ]
+                  }
+                  icon={
+                    <SvgSearch
+                      className="searchIcon"
+                    />
+                  }
+                  onChange={[Function]}
+                  placeholder="Search..."
+                  reverseIconPosition={true}
+                  value=""
+                >
+                  <div
+                    className="textField searchInput"
+                  >
+                    <div
+                      className="inputContainer"
+                    >
+                      <input
+                        className="input withIcon reverseIconPosition"
+                        onChange={[Function]}
+                        placeholder="Search..."
+                        type="text"
+                        value=""
+                      />
+                      <span
+                        className="fieldIcon reverseIconPosition"
+                      >
+                        <SvgSearch
+                          className="searchIcon"
+                        >
+                          <svg
+                            className="searchIcon"
+                            height={20}
+                            width={20}
+                          >
+                            <circle
+                              cx={9}
+                              cy={9}
+                              fill="none"
+                              r={7}
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                            <path
+                              d="M14 14l4 4-4-4z"
+                              fill="none"
+                              stroke="#000"
+                              strokeWidth={1.1}
+                            />
+                          </svg>
+                        </SvgSearch>
+                      </span>
+                    </div>
+                  </div>
+                </TextField>
+                <div
+                  className="resultsContainer"
+                />
+              </div>
+            </SearchBar>
+          </div>
+        </div>
+        <div
+          className="rightItems"
+        >
+          <div
+            className="headerItem"
+            key="0"
+          >
+            <IconLink
+              icon={
+                <SvgComments
+                  className="commentsIcon"
+                />
+              }
+              key="0"
+              notificationCount={4}
+              status="Success"
+              title="Comments"
+            >
+              <a
+                className="iconLink"
+                title="Comments"
+              >
+                <SvgComments
+                  className="commentsIcon"
+                >
+                  <svg
+                    className="commentsIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M2 .5h17.5V13"
+                      fill="none"
+                      stroke="#000"
+                    />
+                    <path
+                      d="M5 19.71V15H0V2h18v13H9.71L5 19.71zM1 14h5v3.29L9.29 14H17V3H1v11z"
+                    />
+                  </svg>
+                </SvgComments>
+                <span
+                  className="badge badgeCount success"
+                >
+                  4
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="1"
+          >
+            <IconLink
+              icon={
+                <SvgBell
+                  className="bellIcon"
+                />
+              }
+              key="1"
+              notificationCount={2}
+              status="Warning"
+              title="Alerts"
+            >
+              <a
+                className="iconLink"
+                title="Alerts"
+              >
+                <SvgBell
+                  className="bellIcon"
+                >
+                  <svg
+                    className="bellIcon"
+                    height={20}
+                    width={20}
+                  >
+                    <path
+                      d="M17 15.5H3c-.01-.89.79-2.16 1.1-2.99.48-1.21.62-2.16 1.09-5.5.35-2.48.7-3.81 2.09-4.85.85-.6 2.09-.66 2.53-.66h.15s1.66-.09 2.71.67c1.41 1.03 1.75 2.37 2.1 4.85.49 3.33.63 4.29 1.1 5.5.33.82 1.14 2.09 1.13 2.98h0z"
+                      fill="none"
+                      stroke="#000"
+                      strokeWidth={1.1}
+                    />
+                    <path
+                      d="M12.39 16c0 1.37-1.04 2.43-2.48 2.43-1.43 0-2.49-1.06-2.49-2.43"
+                      fill="none"
+                      stroke="#000"
+                    />
+                  </svg>
+                </SvgBell>
+                <span
+                  className="badge badgeCount warning"
+                >
+                  2
+                </span>
+              </a>
+            </IconLink>
+          </div>
+          <div
+            className="headerItem"
+            key="2"
+          >
+            <UserLink
+              name={
+                Object {
+                  "forename": "Test",
+                  "surname": "User",
+                }
+              }
+            >
+              <div
+                className="userLink"
+              >
+                <div
+                  className="topbarDivider"
+                />
+                <div
+                  className="userContainer"
+                >
+                  <span
+                    className="userName"
+                  >
+                    Test User
+                  </span>
+                  <UserImage
+                    name={
+                      Object {
+                        "forename": "Test",
+                        "surname": "User",
+                      }
+                    }
+                  >
+                    <span
+                      className="defaultUserIcon"
+                    >
+                      TU
+                    </span>
+                  </UserImage>
+                </div>
+              </div>
+            </UserLink>
+          </div>
+        </div>
+      </div>
+    </Header>
+  </SearchHeader>
+</Provider>
+`;

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactDetailFields ContactDetailFields matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    errorText="Please confirm contact method"
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-contact-method",
+            }
+          }
+          label="Contact method"
+          onChange={[Function]}
+          options={
+            Array [
+              "Home Number",
+              "Mobile Number",
+              "Work Number",
+              "Personal Email",
+              "Work Email",
+            ]
+          }
+          selected=""
+        />,
+      ]
+    }
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "contact-detail",
+            }
+          }
+          label="Contact"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+</Fragment>
+`;
+
+exports[`ContactDetailFields ContactDetailFields with field errors matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    errorText="Please confirm contact method"
+    hasError={true}
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-contact-method",
+            }
+          }
+          isInvalid={true}
+          label="Contact method"
+          onChange={[Function]}
+          options={
+            Array [
+              "Home Number",
+              "Mobile Number",
+              "Work Number",
+              "Personal Email",
+              "Work Email",
+            ]
+          }
+          selected=""
+        />,
+      ]
+    }
+  />
+  <QuestionBox
+    errorText="error!"
+    hasError={true}
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "contact-detail",
+            }
+          }
+          isInvalid={true}
+          label="Contact"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+</Fragment>
+`;

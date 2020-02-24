@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectCompanyTypeStatus SelectCompanyTypeStatus matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    errorText="Please confirm legal status"
+    inputFields={
+      Array [
+        <MultiChoice
+          attributes={
+            Object {
+              "test-id": "select-standard-legal-status",
+            }
+          }
+          onClick={[Function]}
+          options={
+            Array [
+              "Sole Proprietor",
+              "Partnership",
+              "Limited",
+              "Public Limited",
+              "Other",
+            ]
+          }
+          selectedOption="Limited"
+        />,
+      ]
+    }
+    text="Company legal status"
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <Dropdown
+                attributes={
+                  Object {
+                    "test-id": "select-alternative-legal-status",
+                  }
+                }
+                label="Please select legal status"
+                onChange={[Function]}
+                options={
+                  Array [
+                    "Association/Club/Society",
+                    "Charity",
+                    "Government",
+                    "Limited Liability Partnership",
+                    "Partnership - Limited",
+                    "Partnership - Ordinary",
+                    "Private Unlimited Company",
+                    "Trust or Trustees",
+                  ]
+                }
+              />,
+            ]
+          }
+        />,
+      ]
+    }
+    visible={false}
+  />
+</Fragment>
+`;
+
+exports[`SelectCompanyTypeStatus SelectCompanyTypeStatus with alt typeStatus matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    errorText="Please confirm legal status"
+    inputFields={
+      Array [
+        <MultiChoice
+          attributes={
+            Object {
+              "test-id": "select-standard-legal-status",
+            }
+          }
+          onClick={[Function]}
+          options={
+            Array [
+              "Sole Proprietor",
+              "Partnership",
+              "Limited",
+              "Public Limited",
+              "Other",
+            ]
+          }
+          selectedOption="Other"
+        />,
+      ]
+    }
+    text="Company legal status"
+  />
+  <SubQuestion
+    items={
+      Array [
+        <QuestionBox
+          inputFields={
+            Array [
+              <Dropdown
+                attributes={
+                  Object {
+                    "test-id": "select-alternative-legal-status",
+                  }
+                }
+                label="Please select legal status"
+                onChange={[Function]}
+                options={
+                  Array [
+                    "Association/Club/Society",
+                    "Charity",
+                    "Government",
+                    "Limited Liability Partnership",
+                    "Partnership - Limited",
+                    "Partnership - Ordinary",
+                    "Private Unlimited Company",
+                    "Trust or Trustees",
+                  ]
+                }
+                selected="Association/Club/Society"
+              />,
+            ]
+          }
+        />,
+      ]
+    }
+    visible={true}
+  />
+</Fragment>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddAdditionalContactsField AddAdditionalContactsField matches snapshot 1`] = `
+<AddItemsField
+  fieldText="Additional contacts (optional)"
+  form={[Function]}
+  itemName="additional contact"
+  onChange={[MockFunction]}
+  table={[Function]}
+/>
+`;

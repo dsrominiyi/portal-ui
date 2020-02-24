@@ -1,0 +1,18 @@
+@import '../../style/vars';
+
+.user-photo {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.default-user-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  color: $brand-white;
+  background-color: $brand-info;
+  font-size: 1.4em;
+  border-radius: 50%;
+}

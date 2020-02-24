@@ -1,0 +1,14 @@
+
+@import './style/_vars';
+
+.app-container {
+  display: flex;
+  align-items: stretch;
+  min-width: 768px;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

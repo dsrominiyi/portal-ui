@@ -1,0 +1,15 @@
+@import '../../../style/vars';
+
+.affixed-field-wrapper {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.prefix {
+  padding-right: 5px;
+}
+
+.suffix {
+  padding-left: 5px;
+}

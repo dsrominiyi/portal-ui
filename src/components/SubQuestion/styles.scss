@@ -1,0 +1,51 @@
+@import '../../style/vars';
+
+$transition-ms: 200ms;
+
+.sub-question-container {
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  margin-left: 20px;
+  overflow: hidden;
+  transition-duration: $transition-ms;
+  transition-property: height, margin, opacity;
+}
+
+.inset-question-wrapper {
+  border-left: 2px solid $brand-grey-white;
+  padding-left: 10px;
+  transition: height $transition-ms;
+
+  > * {
+    margin: 20px 0;
+  }
+
+  > :first-child {
+    margin-top: 0;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.enter {
+  opacity: 0;
+  margin-left: 0;
+}
+
+.enter-active {
+  opacity: 1;
+  margin-left: 20px;
+}
+
+.exit {
+  opacity: 1;
+  margin-left: 20px;
+}
+
+.exit-active {
+  opacity: 0;
+  margin: 0; // remove any margins applied from other sources for a smoother transition
+}

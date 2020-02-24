@@ -1,0 +1,22 @@
+@import '../../style/vars';
+
+.total-gwp {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  color: $brand-charcoal;
+}
+
+.gwp-total,
+.gwp-text {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.gwp-total {
+  font-weight: 500;
+  font-size: 2rem;
+  color: $brand-success;
+}

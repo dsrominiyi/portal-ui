@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconLink component story renders match snapshots: additionalClass 1`] = `
+<a
+  className="iconLink additional-class"
+  onClick={[Function]}
+  title="Happy"
+>
+  <SvgHappy />
+  <span
+    className="badge badgeCount info"
+  />
+</a>
+`;
+
+exports[`IconLink component story renders match snapshots: dangerNotifications 1`] = `
+<a
+  className="iconLink"
+  onClick={[Function]}
+  title="Happy"
+>
+  <SvgHappy />
+  <span
+    className="badge badgeCount danger"
+  >
+    99
+  </span>
+</a>
+`;
+
+exports[`IconLink component story renders match snapshots: noNotificationsHref 1`] = `
+<a
+  className="iconLink"
+  href="https://www.google.com"
+  target="_blank"
+  title="Comments"
+>
+  <SvgComments />
+  <span
+    className="badge badgeCount info"
+  >
+    0
+  </span>
+</a>
+`;
+
+exports[`IconLink component story renders match snapshots: noNotificationsOnClick 1`] = `
+<a
+  className="iconLink"
+  onClick={[Function]}
+  title="Comments"
+>
+  <SvgComments />
+  <span
+    className="badge badgeCount info"
+  >
+    0
+  </span>
+</a>
+`;
+
+exports[`IconLink component story renders match snapshots: noStatusSupplied 1`] = `
+<a
+  className="iconLink"
+  onClick={[Function]}
+  title="Alerts"
+>
+  <SvgBell />
+  <span
+    className="badge badgeCount info"
+  >
+    5
+  </span>
+</a>
+`;
+
+exports[`IconLink component story renders match snapshots: successNotifications 1`] = `
+<a
+  className="iconLink"
+  onClick={[Function]}
+  title="Comments"
+>
+  <SvgComments />
+  <span
+    className="badge badgeCount success"
+  >
+    4
+  </span>
+</a>
+`;
+
+exports[`IconLink component story renders match snapshots: warningNotifications 1`] = `
+<a
+  className="iconLink"
+  onClick={[Function]}
+  title="Alerts"
+>
+  <SvgBell />
+  <span
+    className="badge badgeCount warning"
+  >
+    2
+  </span>
+</a>
+`;

@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer Search Results Page SearchResults container matches snapshot 1`] = `
+<div
+  className="pageContainer"
+>
+  <PageTitle
+    text="Find Customer"
+  />
+  <InfoBox
+    header="Results for: "
+    items={
+      Array [
+        <TableDisplay
+          headers={
+            Array [
+              "REFERENCE",
+              "CLIENT",
+              "TYPE",
+              "DETAILS",
+            ]
+          }
+          onRowClick={[Function]}
+          rows={
+            Array [
+              Array [
+                "12345",
+                "Bob Jones",
+                "individual",
+                Array [
+                  <span>
+                    Postcode: AB23 3UE
+                    <br />
+                  </span>,
+                  <span>
+                    DOB: 12/09/1960
+                    <br />
+                  </span>,
+                  <span>
+                    
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "34634",
+                "John Jones",
+                "individual",
+                Array [
+                  <span>
+                    Postcode: BB4 4HG
+                    <br />
+                  </span>,
+                  <span>
+                    DOB: 18/02/1964
+                    <br />
+                  </span>,
+                  <span>
+                    
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "45359",
+                "James Jones",
+                "individual",
+                Array [
+                  <span>
+                    Postcode: OL13 8TE
+                    <br />
+                  </span>,
+                  <span>
+                    DOB: 19/12/1984
+                    <br />
+                  </span>,
+                  <span>
+                    
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "35778",
+                "Alice Jones",
+                "individual",
+                Array [
+                  <span>
+                    Postcode: OL10 1HF
+                    <br />
+                  </span>,
+                  <span>
+                    DOB: 12/04/1989
+                    <br />
+                  </span>,
+                  <span>
+                    
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "97345",
+                "Jenny Jones",
+                "individual",
+                Array [
+                  <span>
+                    Postcode: BB1 3HD
+                    <br />
+                  </span>,
+                  <span>
+                    DOB: 23/04/1980
+                    <br />
+                  </span>,
+                  <span>
+                    
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "32460",
+                "Smith & Jones Travel Ltd",
+                "company",
+                Array [
+                  <span>
+                    Postcode: M2 4RY
+                    <br />
+                  </span>,
+                  <span>
+                    Trading name: Smith & Jones Travel Ltd
+                    <br />
+                  </span>,
+                  <span>
+                    Reg No: 123456789
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "65894",
+                "Jones and Jones",
+                "company",
+                Array [
+                  <span>
+                    Postcode: BB11 4RD
+                    <br />
+                  </span>,
+                  <span>
+                    Trading name: Jones Motors
+                    <br />
+                  </span>,
+                  <span>
+                    Reg No: 12345678
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "65894",
+                "Johnsons Group",
+                "company",
+                Array [
+                  <span>
+                    Postcode: M23 7UD
+                    <br />
+                  </span>,
+                  <span>
+                    Trading name: Johnson's Cars
+                    <br />
+                  </span>,
+                  <span>
+                    Reg No: 34564262
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "65894",
+                "Friendly Frank",
+                "company",
+                Array [
+                  <span>
+                    Postcode: L1 3HE
+                    <br />
+                  </span>,
+                  <span>
+                    Trading name: Frank's Fleet Cars
+                    <br />
+                  </span>,
+                  <span>
+                    Reg No: 23456789
+                    <br />
+                  </span>,
+                ],
+              ],
+              Array [
+                "65894",
+                "Baker's Travel Ltd",
+                "company",
+                Array [
+                  <span>
+                    Postcode: NW1 8QT
+                    <br />
+                  </span>,
+                  <span>
+                    Trading name: Baker's Travel
+                    <br />
+                  </span>,
+                  <span>
+                    Reg No: 23765893
+                    <br />
+                  </span>,
+                ],
+              ],
+            ]
+          }
+        />,
+      ]
+    }
+  />
+</div>
+`;

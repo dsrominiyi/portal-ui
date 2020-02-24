@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal hidden Modal matches snapshot 1`] = `
+<Modal
+  body={
+    Array [
+      "body",
+    ]
+  }
+  footer="footer"
+  header="header"
+  hideModal={[MockFunction]}
+  isVisible={false}
+>
+  <Portal>
+    <Portal
+      containerInfo={<div />}
+    >
+      <CSSTransition
+        classNames={
+          Object {
+            "enter": "overlayEnter",
+            "enterActive": "overlayEnterActive",
+            "exit": "overlayExit",
+            "exitActive": "overlayExitActive",
+          }
+        }
+        in={false}
+        mountOnEnter={true}
+        timeout={300}
+        unmountOnExit={true}
+      >
+        <Transition
+          appear={false}
+          enter={true}
+          exit={true}
+          in={false}
+          mountOnEnter={true}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          timeout={300}
+          unmountOnExit={true}
+        />
+      </CSSTransition>
+    </Portal>
+  </Portal>
+</Modal>
+`;
+
+exports[`Modal visible Modal matches snapshot 1`] = `
+<Modal
+  body={
+    Array [
+      "body",
+    ]
+  }
+  footer="footer"
+  header="header"
+  hideModal={[MockFunction]}
+  isVisible={true}
+>
+  <Portal>
+    <Portal
+      containerInfo={
+        <div>
+          <div
+            class="modalOverlay"
+          >
+            <div
+              class="modal visible"
+            >
+              <div
+                class="closeIcon"
+              >
+                <svg
+                  height="20"
+                  viewBox="0.5 0 20 20"
+                  width="20"
+                >
+                  <path
+                    d="M16 16L4 4M16 4L4 16"
+                    fill="none"
+                    stroke="#000"
+                    stroke-width="1.06"
+                  />
+                </svg>
+              </div>
+              <div
+                class="header"
+              >
+                header
+              </div>
+              <div
+                class="body"
+              >
+                body
+              </div>
+              <div
+                class="footer"
+              >
+                footer
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <CSSTransition
+        classNames={
+          Object {
+            "enter": "overlayEnter",
+            "enterActive": "overlayEnterActive",
+            "exit": "overlayExit",
+            "exitActive": "overlayExitActive",
+          }
+        }
+        in={true}
+        mountOnEnter={true}
+        timeout={300}
+        unmountOnExit={true}
+      >
+        <Transition
+          appear={false}
+          enter={true}
+          exit={true}
+          in={true}
+          mountOnEnter={true}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          timeout={300}
+          unmountOnExit={true}
+        >
+          <div
+            className="modalOverlay"
+            onMouseDown={[Function]}
+            onMouseUp={[Function]}
+          >
+            <div
+              className="modal visible"
+              onMouseDown={[Function]}
+            >
+              <div
+                className="closeIcon"
+                onClick={[MockFunction]}
+              >
+                <SvgClose
+                  viewBox="0.5 0 20 20"
+                >
+                  <svg
+                    height={20}
+                    viewBox="0.5 0 20 20"
+                    width={20}
+                  >
+                    <path
+                      d="M16 16L4 4M16 4L4 16"
+                      fill="none"
+                      stroke="#000"
+                      strokeWidth={1.06}
+                    />
+                  </svg>
+                </SvgClose>
+              </div>
+              <div
+                className="header"
+              >
+                header
+              </div>
+              <div
+                className="body"
+              >
+                body
+              </div>
+              <div
+                className="footer"
+              >
+                footer
+              </div>
+            </div>
+          </div>
+        </Transition>
+      </CSSTransition>
+    </Portal>
+  </Portal>
+</Modal>
+`;

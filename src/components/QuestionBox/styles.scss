@@ -1,0 +1,31 @@
+@import '../../style/vars';
+
+.question-box {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid $brand-grey-white;
+  padding: 20px 20px 20px 16px;
+  border-left: 4px solid transparent;
+  background-color: $brand-white-smoke;
+  transition: border 0.2s;
+
+  &.has-error {
+    border-left: 4px solid $brand-danger;
+  }
+}
+
+.question-text {
+  margin-bottom: 1.25rem;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.error-text {
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: $brand-danger;
+}

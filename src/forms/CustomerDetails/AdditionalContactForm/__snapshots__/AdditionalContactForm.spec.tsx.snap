@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalContactForm snapshots AdditionalContactForm matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="additional-contact-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-relationship",
+            }
+          }
+          label="Relationship"
+          onChange={[Function]}
+          options={
+            Array [
+              "Spouse",
+              "Sibling",
+              "Parent",
+              "Child",
+              "Solicitor",
+            ]
+          }
+          selected=""
+        />,
+      ]
+    }
+  />
+  <SelectTitle
+    onChange={[Function]}
+    title=""
+  />
+  <NameFields
+    fieldErrors={
+      Object {
+        "forename": undefined,
+        "middleName": undefined,
+        "surname": undefined,
+      }
+    }
+    forename=""
+    middleName=""
+    onChange={[Function]}
+    surname=""
+  />
+  <ContactDetailFields
+    detail=""
+    fieldErrors={
+      Object {
+        "detail": undefined,
+        "type": undefined,
+      }
+    }
+    onChange={[Function]}
+    type=""
+  />
+</div>
+`;
+
+exports[`AdditionalContactForm snapshots AdditionalContactForm with initial values matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="additional-contact-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-relationship",
+            }
+          }
+          label="Relationship"
+          onChange={[Function]}
+          options={
+            Array [
+              "Spouse",
+              "Sibling",
+              "Parent",
+              "Child",
+              "Solicitor",
+            ]
+          }
+          selected=""
+        />,
+      ]
+    }
+  />
+  <SelectTitle
+    onChange={[Function]}
+    title=""
+  />
+  <NameFields
+    fieldErrors={
+      Object {
+        "forename": undefined,
+        "middleName": undefined,
+        "surname": undefined,
+      }
+    }
+    forename=""
+    middleName=""
+    onChange={[Function]}
+    surname=""
+  />
+  <ContactDetailFields
+    detail=""
+    fieldErrors={
+      Object {
+        "detail": undefined,
+        "type": undefined,
+      }
+    }
+    onChange={[Function]}
+    type=""
+  />
+</div>
+`;
+
+exports[`AdditionalContactForm snapshots AdditionalContactForm without form errors matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="additional-contact-form"
+>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Dropdown
+          attributes={
+            Object {
+              "test-id": "select-relationship",
+            }
+          }
+          label="Relationship"
+          onChange={[Function]}
+          options={
+            Array [
+              "Spouse",
+              "Sibling",
+              "Parent",
+              "Child",
+              "Solicitor",
+            ]
+          }
+          selected=""
+        />,
+      ]
+    }
+  />
+  <SelectTitle
+    onChange={[Function]}
+    title=""
+  />
+  <NameFields
+    fieldErrors={
+      Object {
+        "forename": undefined,
+        "middleName": undefined,
+        "surname": undefined,
+      }
+    }
+    forename=""
+    middleName=""
+    onChange={[Function]}
+    surname=""
+  />
+  <ContactDetailFields
+    detail=""
+    fieldErrors={
+      Object {
+        "detail": undefined,
+        "type": undefined,
+      }
+    }
+    onChange={[Function]}
+    type=""
+  />
+</div>
+`;

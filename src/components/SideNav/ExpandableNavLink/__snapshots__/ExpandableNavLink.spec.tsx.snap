@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExpandableNavLink component story renders match snapshots: defaultSize 1`] = `
+<div
+  className="expandableNavLink"
+>
+  <div
+    className="clickableLink"
+    onClick={[Function]}
+  >
+    <NavLink
+      icon={
+        <i
+          className="fas fa-user"
+        />
+      }
+      label="Customer"
+    />
+    <i
+      className="chevron fas fa-chevron-right"
+    />
+  </div>
+  <div
+    className="dropDown"
+  >
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      href="/newind"
+      key="0"
+      label="New Individual"
+    />
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      href="/newcompany"
+      key="1"
+      label="New Company"
+    />
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      href="/search"
+      key="2"
+      label="Find Customer"
+    />
+  </div>
+</div>
+`;
+
+exports[`ExpandableNavLink component story renders match snapshots: miniLink 1`] = `
+<div
+  className="expandableNavLink"
+>
+  <div
+    className="clickableLink mini"
+    onClick={[Function]}
+  >
+    <NavLink
+      icon={
+        <i
+          className="fas fa-user"
+        />
+      }
+      isMiniLink={true}
+      label="Customer"
+    />
+  </div>
+  <div
+    className="dropDown mini hidden"
+  >
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      href="/newind"
+      key="0"
+      label="New Individual"
+    />
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      href="/newcompany"
+      key="1"
+      label="New Company"
+    />
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      href="/search"
+      key="2"
+      label="Find Customer"
+    />
+  </div>
+</div>
+`;
+
+exports[`ExpandableNavLink component story renders match snapshots: withoutHrefs 1`] = `
+<div
+  className="expandableNavLink"
+>
+  <div
+    className="clickableLink"
+    onClick={[Function]}
+  >
+    <NavLink
+      icon={
+        <i
+          className="fas fa-user"
+        />
+      }
+      label="Customer"
+    />
+    <i
+      className="chevron fas fa-chevron-right"
+    />
+  </div>
+  <div
+    className="dropDown"
+  >
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      key="0"
+      label="New Individual"
+      onClick={[Function]}
+    />
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      key="1"
+      label="New Company"
+      onClick={[Function]}
+    />
+    <Link
+      classNames={
+        Array [
+          "link",
+        ]
+      }
+      key="2"
+      label="Find Customer"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

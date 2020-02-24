@@ -1,0 +1,38 @@
+@import '../style/vars';
+
+.form-section {
+  padding: 1.5rem;
+
+  > * {
+    margin-bottom: 1.25rem;
+  }
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    color: $brand-charcoal;
+  }
+
+  .form-text-field {
+    width: 500px;
+
+    > div:first-child {
+      color: $brand-heavy-thunder;
+      font-size: 1.125rem;
+    }
+  }
+}
+
+.label {
+  margin-bottom: 0.5rem;
+  color: $brand-heavy-thunder;
+  font-size: 1.125rem;
+}
+
+.modal-form {
+  padding: 0;
+}

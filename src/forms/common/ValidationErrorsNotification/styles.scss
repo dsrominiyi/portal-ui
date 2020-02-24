@@ -1,0 +1,14 @@
+@import '../../../style/vars';
+
+.validation-errors {
+  font-size: 1rem;
+  color: $brand-danger;
+
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+.error-box {
+  border-bottom: 0;
+}

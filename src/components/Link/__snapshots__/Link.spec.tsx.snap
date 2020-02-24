@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link component story renders match snapshots: customStyling 1`] = `
+<a
+  className="customLink"
+  onClick={[Function]}
+>
+  Click me!
+</a>
+`;
+
+exports[`Link component story renders match snapshots: withHref 1`] = `
+<a
+  className="link"
+  href="https://www.google.com"
+  target="_blank"
+>
+  Google
+</a>
+`;
+
+exports[`Link component story renders match snapshots: withOnClick 1`] = `
+<a
+  className="link"
+  onClick={[Function]}
+>
+  Click me!
+</a>
+`;

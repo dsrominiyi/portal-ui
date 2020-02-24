@@ -1,0 +1,85 @@
+@import '../../style/_vars';
+
+.button {
+  margin: 0;
+  overflow: visible;
+  display: inline-block;
+  padding: 10px 30px;
+  outline: none;
+  vertical-align: middle;
+  font-size: 0.875rem;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: $brand-heavy-thunder;
+  border: 1px solid $brand-off-white;
+  transition: 0.1s ease-in-out;
+  transition-property: color, background-color, border-color;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: $brand-white-smoke;
+    color: $brand-grey-white;
+    cursor: default;
+  }
+
+  &:hover:not(:disabled) {
+    text-decoration: none;
+    border: 1px solid darken($brand-off-white, 15%);
+  }
+}
+
+.success {
+  background-color: $brand-success;
+  color: $brand-white;
+  border: 1px solid transparent;
+
+  &:hover:not(:disabled) {
+    text-decoration: none;
+    background-color: lighten($brand-success, 10%);
+  }
+}
+
+.primary {
+  background-color: $brand-primary;
+  color: $brand-white;
+  border: 1px solid transparent;
+
+  &:hover:not(:disabled) {
+    text-decoration: none;
+    background-color: lighten($brand-primary, 10%);
+  }
+}
+
+.secondary {
+  background-color: $brand-secondary;
+  color: $brand-black;
+  border: 1px solid transparent;
+
+  &:hover:not(:disabled) {
+    text-decoration: none;
+    background-color: lighten($brand-secondary, 10%);
+  }
+}
+
+.warning {
+  background-color: $brand-warning;
+  color: $brand-white;
+  border: 1px solid transparent;
+
+  &:hover:not(:disabled) {
+    text-decoration: none;
+    background-color: lighten($brand-warning, 10%);
+  }
+}
+
+.danger {
+  background-color: $brand-danger;
+  color: $brand-white;
+  border: 1px solid transparent;
+
+  &:hover:not(:disabled) {
+    text-decoration: none;
+    background-color: lighten($brand-danger, 10%);
+  }
+}

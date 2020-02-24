@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lookup component story renders match snapshots: default 1`] = `
+<div
+  className="lookup"
+>
+  <TextField
+    label="Postcode"
+    onChange={[Function]}
+  />
+  <Button
+    additionalClasses={
+      Array [
+        "button",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Find"
+    onClick={[Function]}
+    status="Success"
+  />
+</div>
+`;
+
+exports[`Lookup component story renders match snapshots: secondaryAction 1`] = `
+<div
+  className="lookup"
+>
+  <TextField
+    label="Postcode"
+    onChange={[Function]}
+  />
+  <Button
+    additionalClasses={
+      Array [
+        "button",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Find"
+    onClick={[Function]}
+    status="Success"
+  />
+  <Button
+    additionalClasses={
+      Array [
+        "button",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Enter Manually"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Lookup component story renders match snapshots: withoutLabel 1`] = `
+<div
+  className="lookup"
+>
+  <TextField
+    onChange={[Function]}
+  />
+  <Button
+    additionalClasses={
+      Array [
+        "button",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Search"
+    onClick={[Function]}
+    status="Success"
+  />
+</div>
+`;

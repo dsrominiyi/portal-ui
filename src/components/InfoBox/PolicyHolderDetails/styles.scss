@@ -1,0 +1,27 @@
+@import '../../../style/vars';
+
+div.info-box-header {
+  color: $brand-black;
+}
+
+.policy-holder-details {
+  white-space: pre-wrap;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: $brand-charcoal;
+}
+
+.header {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $brand-black;
+}
+
+.sub-header {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+.text-section {
+  margin-bottom: 1rem;
+}

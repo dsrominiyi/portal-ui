@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`User component story renders match snapshots: eightteenResults 1`] = `
+<div
+  className="searchContainer"
+>
+  <TextField
+    additionalClasses={
+      Array [
+        "searchInput",
+      ]
+    }
+    icon={
+      <SvgSearch
+        className="searchIcon"
+      />
+    }
+    onChange={[Function]}
+    placeholder="Search..."
+    reverseIconPosition={true}
+    value=""
+  />
+  <div
+    className="resultsContainer"
+  />
+</div>
+`;
+
+exports[`User component story renders match snapshots: noResults 1`] = `
+<div
+  className="searchContainer"
+>
+  <TextField
+    additionalClasses={
+      Array [
+        "searchInput",
+      ]
+    }
+    icon={
+      <SvgSearch
+        className="searchIcon"
+      />
+    }
+    onChange={[Function]}
+    placeholder="Search..."
+    reverseIconPosition={true}
+    value=""
+  />
+  <div
+    className="resultsContainer"
+  />
+</div>
+`;
+
+exports[`User component story renders match snapshots: sixResults 1`] = `
+<div
+  className="searchContainer"
+>
+  <TextField
+    additionalClasses={
+      Array [
+        "searchInput",
+      ]
+    }
+    icon={
+      <SvgSearch
+        className="searchIcon"
+      />
+    }
+    onChange={[Function]}
+    placeholder="Search..."
+    reverseIconPosition={true}
+    value=""
+  />
+  <div
+    className="resultsContainer"
+  />
+</div>
+`;
+
+exports[`User component story renders match snapshots: twoResults 1`] = `
+<div
+  className="searchContainer"
+>
+  <TextField
+    additionalClasses={
+      Array [
+        "searchInput",
+      ]
+    }
+    icon={
+      <SvgSearch
+        className="searchIcon"
+      />
+    }
+    onChange={[Function]}
+    placeholder="Search..."
+    reverseIconPosition={true}
+    value=""
+  />
+  <div
+    className="resultsContainer"
+  />
+</div>
+`;
+
+exports[`User component story renders match snapshots: withbuildUrlAndBuildResultsUrlOverTen 1`] = `
+<div
+  className="searchContainer"
+>
+  <TextField
+    additionalClasses={
+      Array [
+        "searchInput",
+      ]
+    }
+    icon={
+      <SvgSearch
+        className="searchIcon"
+      />
+    }
+    onChange={[Function]}
+    placeholder="Search..."
+    reverseIconPosition={true}
+    value=""
+  />
+  <div
+    className="resultsContainer"
+  />
+</div>
+`;
+
+exports[`User component story renders match snapshots: withbuildUrlAndBuildResultsUrlUnderTen 1`] = `
+<div
+  className="searchContainer"
+>
+  <TextField
+    additionalClasses={
+      Array [
+        "searchInput",
+      ]
+    }
+    icon={
+      <SvgSearch
+        className="searchIcon"
+      />
+    }
+    onChange={[Function]}
+    placeholder="Search..."
+    reverseIconPosition={true}
+    value=""
+  />
+  <div
+    className="resultsContainer"
+  />
+</div>
+`;

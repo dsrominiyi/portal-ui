@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component story renders match snapshots: default 1`] = `
+<div
+  className="footer"
+>
+  Copyright © Datamatters 2019
+</div>
+`;

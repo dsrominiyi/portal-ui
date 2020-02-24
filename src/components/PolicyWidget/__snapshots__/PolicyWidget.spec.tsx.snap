@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PolicyWidget component story renders match snapshots: additionalItems 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Truck
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+  <div
+    key="0"
+  >
+    <QuoteSummary
+      date="12/12/2019"
+      key="0"
+      rate={56.59}
+    />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: caravan 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Caravan
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: caterers 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Caterers
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: commercialCombined 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Commercial Combined
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: household 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Household
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: longId 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN27391948390230384"
+    >
+      SN27391948390230384
+    </h4>
+    <span>
+      Private Car
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: privateCar 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Private Car
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: publicLiability 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Public Liability
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: travel 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Travel
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;
+
+exports[`PolicyWidget component story renders match snapshots: truck 1`] = `
+<div
+  className="policyWidgetContainer"
+>
+  <div
+    className="textContainer"
+  >
+    <h4
+      title="SN18376"
+    >
+      SN18376
+    </h4>
+    <span>
+      Truck
+    </span>
+  </div>
+  <div
+    className="iconContainer"
+  >
+    <svg />
+  </div>
+</div>
+`;

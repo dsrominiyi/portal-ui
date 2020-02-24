@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeRemaining component story renders match snapshots: amber 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "amber",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={20}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="6 days"
+  value={6}
+/>
+`;
+
+exports[`TimeRemaining component story renders match snapshots: customConfig 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "amber",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={274}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="154 days"
+  value={154}
+/>
+`;
+
+exports[`TimeRemaining component story renders match snapshots: green 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "green",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={274}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="273 days"
+  value={273}
+/>
+`;
+
+exports[`TimeRemaining component story renders match snapshots: lapsed 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "red",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={274}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="Lapsed"
+  value={-3}
+/>
+`;
+
+exports[`TimeRemaining component story renders match snapshots: oneDayRemaining 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "red",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={274}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="1 day"
+  value={1}
+/>
+`;
+
+exports[`TimeRemaining component story renders match snapshots: red 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "red",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={10}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="2 days"
+  value={2}
+/>
+`;
+
+exports[`TimeRemaining should match the snapshot if current date is not passed in 1`] = `
+<CircularProgressbar
+  background={false}
+  backgroundPadding={0}
+  circleRatio={1}
+  className=""
+  classes={
+    Object {
+      "background": "circularProgressBarBackground",
+      "path": "green",
+      "root": "circularProgressBar",
+      "text": "circularProgressBarText",
+      "trail": "circularProgressBarTrail",
+    }
+  }
+  counterClockwise={false}
+  maxValue={274}
+  minValue={0}
+  strokeWidth={5}
+  styles={
+    Object {
+      "background": Object {},
+      "path": Object {},
+      "root": Object {},
+      "text": Object {},
+      "trail": Object {},
+    }
+  }
+  text="154 days"
+  value={154}
+/>
+`;

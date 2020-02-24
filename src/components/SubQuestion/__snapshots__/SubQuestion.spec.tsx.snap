@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubQuestion component story renders match snapshots: multiple 1`] = `
+<CSSTransition
+  classNames={
+    Object {
+      "enter": "enter",
+      "enterActive": "enterActive",
+      "exit": "exit",
+      "exitActive": "exitActive",
+    }
+  }
+  in={true}
+  mountOnEnter={true}
+  timeout={200}
+  unmountOnExit={true}
+>
+  <div
+    className="subQuestionContainer"
+  >
+    <div
+      className="insetQuestionWrapper"
+    >
+      <QuestionBox
+        inputFields={
+          Array [
+            <AffixedField
+              prefix="£"
+            />,
+          ]
+        }
+        key="1"
+        text="How much would you want to pay for your car insurance?"
+      />
+      <QuestionBox
+        inputFields={
+          Array [
+            <AffixedField
+              suffix="per month"
+            />,
+          ]
+        }
+        key="2"
+        text="How often do you want to pay this amount?"
+      />
+    </div>
+  </div>
+</CSSTransition>
+`;
+
+exports[`SubQuestion component story renders match snapshots: single 1`] = `
+<CSSTransition
+  classNames={
+    Object {
+      "enter": "enter",
+      "enterActive": "enterActive",
+      "exit": "exit",
+      "exitActive": "exitActive",
+    }
+  }
+  in={true}
+  mountOnEnter={true}
+  timeout={200}
+  unmountOnExit={true}
+>
+  <div
+    className="subQuestionContainer"
+  >
+    <div
+      className="insetQuestionWrapper"
+    >
+      <QuestionBox
+        inputFields={
+          Array [
+            <AffixedField
+              prefix="£"
+            />,
+          ]
+        }
+        key="1"
+        text="How much would you want to pay for your car insurance?"
+      />
+    </div>
+  </div>
+</CSSTransition>
+`;

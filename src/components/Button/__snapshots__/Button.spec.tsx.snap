@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component story renders match snapshots: customStyling 1`] = `
+<button
+  className="styles.customButton"
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: danger 1`] = `
+<button
+  className="button danger "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: default 1`] = `
+<button
+  className="button "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: disabled 1`] = `
+<button
+  className="button "
+  disabled={true}
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: extraClass 1`] = `
+<button
+  className="button loginButton "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: primary 1`] = `
+<button
+  className="button primary "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: secondary 1`] = `
+<button
+  className="button secondary "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: success 1`] = `
+<button
+  className="button success "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;
+
+exports[`Button component story renders match snapshots: warning 1`] = `
+<button
+  className="button warning "
+  onClick={[Function]}
+>
+  TEST
+</button>
+`;

@@ -1,0 +1,21 @@
+@import '../../style/vars';
+
+.number-of-policies {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  color: $brand-charcoal;
+}
+
+.policy-count,
+.policy-text {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.policy-count {
+  font-weight: 500;
+  font-size: 2rem;
+}

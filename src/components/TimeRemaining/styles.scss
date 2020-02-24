@@ -1,0 +1,61 @@
+.circular-progress-bar {
+  width: 100%;
+  max-width: 250px;
+  vertical-align: middle;
+}
+
+.circular-progress-bar %circular-progress-bar-path {
+  stroke-linecap: butt;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.green {
+  @extend %circular-progress-bar-path;
+
+  stroke: #92d400;
+}
+
+.red {
+  @extend %circular-progress-bar-path;
+
+  stroke: #f25544;
+}
+
+.amber {
+  @extend %circular-progress-bar-path;
+
+  stroke: #ffbf00;
+}
+
+.circular-progress-bar .circular-progress-bar-trail {
+  stroke: #d6d6d6;
+  stroke-linecap: round;
+}
+
+.circular-progress-bar .circular-progress-bar-text {
+  fill: #666;
+  font-size: 20px;
+  font-family: 'BrandonText-Regular', Arial, Helvetica, sans-serif;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}
+
+.circular-progress-bar .circular-progress-bar-background {
+  fill: #d6d6d6;
+}
+
+.circular-progress-bar.circular-progress-bar-inverted .circular-progress-bar-background {
+  fill: #3e98c7;
+}
+
+.circular-progress-bar.circular-progress-bar-inverted .circular-progress-bar-text {
+  fill: #fff;
+}
+
+.circular-progress-bar.circular-progress-bar-inverted .circular-progress-bar-path {
+  stroke: #fff;
+}
+
+.circular-progress-bar.circular-progress-bar-inverted .circular-progress-bar-trail {
+  stroke: transparent;
+}

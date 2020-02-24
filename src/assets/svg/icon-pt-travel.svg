@@ -1,0 +1,13 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86">
+  <title>tv</title>
+  <g id="Layer_4" data-name="Layer 4">
+    <circle cx="43" cy="43" r="43" style="fill:#0c2340"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <path d="M269.67,274.26h-7.4a2.09,2.09,0,0,0-2.08,2.09V305.6a2.09,2.09,0,0,0,2.08,2.09h7.4Z" transform="translate(-242 -246)" style="fill:#fff"/>
+    <path d="M307.89,274.26h-7.4v33.43h7.4A2.1,2.1,0,0,0,310,305.6V276.35a2.1,2.1,0,0,0-2.09-2.09" transform="translate(-242 -246)" style="fill:#fff"/>
+    <path d="M286.11,293.54,276.59,284l1.09-5.11,5.11-1.09,9.52,9.52Zm-13.65,14.15h25.25V274.26H272.46Z" transform="translate(-242 -246)" style="fill:#fff"/>
+    <path d="M277,272.87v-2.21a2.09,2.09,0,0,1,2.08-2.09h12a2.1,2.1,0,0,1,2.09,2.09v2.21H297v-2.21a5.93,5.93,0,0,0-5.92-5.92h-12a5.92,5.92,0,0,0-5.91,5.92v2.21Z" transform="translate(-242 -246)" style="fill:#fff"/>
+  </g>
+</svg>

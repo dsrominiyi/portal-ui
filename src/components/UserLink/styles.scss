@@ -1,0 +1,28 @@
+@import '../../style/vars';
+
+.user-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+
+  .user-name {
+    color: $brand-mid-grey;
+    margin-right: 1rem;
+    font-size: 80%;
+    font-weight: 400;
+  }
+}
+
+.topbar-divider {
+  width: 0;
+  height: 2.375rem;
+  border-right: 1px solid rgb(227, 230, 240);
+  margin: 0 1rem 0 0;
+  display: inline-block;
+}

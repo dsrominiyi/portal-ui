@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserImage component story renders match snapshots: extraClass 1`] = `
+<img
+  alt="John Smith"
+  className="userPhoto smallerImg"
+  src="/images/person-who-does-not-exist.jpg"
+  title="John Smith"
+/>
+`;
+
+exports[`UserImage component story renders match snapshots: noPhoto 1`] = `
+<span
+  className="defaultUserIcon"
+>
+  JS
+</span>
+`;
+
+exports[`UserImage component story renders match snapshots: withPhoto 1`] = `
+<img
+  alt="John Smith"
+  className="userPhoto"
+  src="/images/person-who-does-not-exist.jpg"
+  title="John Smith"
+/>
+`;

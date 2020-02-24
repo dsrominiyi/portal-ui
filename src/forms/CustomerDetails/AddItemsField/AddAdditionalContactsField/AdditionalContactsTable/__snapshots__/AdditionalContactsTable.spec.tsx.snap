@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdditionalContactsTable AdditionalContactsTable matches snapshot 1`] = `
+<TableDisplay
+  additionalClasses={
+    Array [
+      "additionalContactsTable",
+    ]
+  }
+  attributes={
+    Object {
+      "test-id": "additional-contacts-table",
+    }
+  }
+  headers={
+    Array [
+      "Name",
+      "Contact",
+      "Relationship",
+    ]
+  }
+  onDelete={[Function]}
+  onEdit={[Function]}
+  rows={
+    Array [
+      Array [
+        "Mr Robert Dave Smith",
+        "Home Number: 08589392900",
+        "Sibling",
+      ],
+      Array [
+        "Mrs Janeundefined Smith",
+        "Work Email: jsmith@test.com",
+        "Spouse",
+      ],
+    ]
+  }
+/>
+`;

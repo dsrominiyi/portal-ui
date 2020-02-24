@@ -1,0 +1,75 @@
+@import '../../style/vars';
+
+$divider-colour: transparentize($brand-black, 0.9);
+
+.info-box {
+  display: inline-flex;
+  flex-direction: column;
+  overflow: visible;
+  height: auto;
+  background-color: $brand-white;
+  font-size: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  padding: 0 1.25rem;
+}
+
+.top-container {
+  padding: 1.25rem 0;
+}
+
+.header-container {
+  display: flex;
+
+  > * {
+    flex: 1;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  color: $brand-charcoal;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.more-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sub-header {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: $brand-charcoal;
+}
+
+.header-divide {
+  border-bottom: 1px $divider-colour solid;
+}
+
+.use-divider {
+  border-bottom: 1px $divider-colour solid;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem 0;
+
+    > * {
+      flex: 1;
+    }
+  }
+}

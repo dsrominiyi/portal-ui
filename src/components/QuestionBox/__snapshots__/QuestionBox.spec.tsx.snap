@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionBox component story renders match snapshots: withAffixedField 1`] = `
+<div
+  className="questionBox"
+>
+  <div
+    className="label questionText"
+  >
+    With Affixed Field
+  </div>
+  <div>
+    <AffixedField
+      key="0"
+      onChange={[Function]}
+      prefix="£"
+    />
+  </div>
+</div>
+`;
+
+exports[`QuestionBox component story renders match snapshots: withDropdown 1`] = `
+<div
+  className="questionBox"
+>
+  <div
+    className="label questionText"
+  >
+    With Dropdown
+  </div>
+  <div>
+    <Dropdown
+      key="0"
+      onChange={[Function]}
+      options={
+        Array [
+          Object {
+            "text": "1",
+            "value": "value1",
+          },
+          Object {
+            "text": "2",
+            "value": "value2",
+          },
+          Object {
+            "text": "3",
+            "value": "value3",
+          },
+          Object {
+            "text": "4",
+            "value": "value4",
+          },
+        ]
+      }
+      selected="key2"
+    />
+  </div>
+</div>
+`;
+
+exports[`QuestionBox component story renders match snapshots: withErrorAndText 1`] = `
+<div
+  className="questionBox hasError"
+>
+  <div>
+    <TextField
+      icon={<SvgUser />}
+      key="0"
+      label="Email Address"
+      onChange={[Function]}
+      password={false}
+      value="test@datamatters.co.uk"
+    />
+  </div>
+  <div
+    className="errorText"
+  >
+    Please confirm first name
+  </div>
+</div>
+`;
+
+exports[`QuestionBox component story renders match snapshots: withTextField 1`] = `
+<div
+  className="questionBox"
+>
+  <div
+    className="label questionText"
+  >
+    With TextField
+  </div>
+  <div>
+    <TextField
+      icon={<SvgUser />}
+      key="0"
+      label="Email Address"
+      onChange={[Function]}
+      password={false}
+      value="test@datamatters.co.uk"
+    />
+  </div>
+</div>
+`;
+
+exports[`QuestionBox component story renders match snapshots: withoutQuestionText 1`] = `
+<div
+  className="questionBox"
+>
+  <div>
+    <TextField
+      icon={<SvgUser />}
+      key="0"
+      label="Email Address"
+      onChange={[Function]}
+      password={false}
+      value="test@datamatters.co.uk"
+    />
+  </div>
+</div>
+`;

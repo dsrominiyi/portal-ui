@@ -1,0 +1,882 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer matches snapshot for a company customer 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Datamatters (Company)"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Policies"
+        items={
+          Array [
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-09-10",
+                  "id": "DA57395",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "startDate": "2019-09-10",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-05-01",
+                  "id": "DA46390",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "startDate": "2019-05-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-11-11",
+                  "id": "DA36545",
+                  "insurer": "We Insure Any Car",
+                  "rate": 539.23,
+                  "startDate": "2019-11-11",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Quotes"
+        items={
+          Array [
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12345",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "James",
+                      "middleName": "Roland",
+                      "surname": "Fowler",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "Jimmy123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12346",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "John",
+                      "middleName": "Robert",
+                      "surname": "Tucker",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "JohnABC",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "decline": "Unnaceptable CCJs",
+                  "id": "12347",
+                  "insurer": "ABC Insurance",
+                  "rate": 0,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "Connor",
+                      "middleName": "Adam",
+                      "surname": "Robertson",
+                    },
+                    "username": "Connor123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="History"
+        items={
+          Array [
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "John",
+                    "surname": "Smith",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Provided client with private car quote. Was unable to offer rate due to garaging address."
+              date="2019-11-19T16:18:41Z"
+              header="Private Car Quote"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Frank",
+                    "surname": "Castle",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Additional passenger added to Policy SN56789. Additional premium of £45.56."
+              date="2019-04-19T09:11:26Z"
+              header="Adjustment"
+              status="Success"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Jane",
+                    "surname": "Doe",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Policy SN23568 rejected due to fraudulent claim."
+              date="2018-06-15T12:54:22Z"
+              header="Rejected"
+              status="Danger"
+            />,
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Customer matches snapshot for an individual customer 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Mr John James Smith (Individual)"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Policies"
+        items={
+          Array [
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-09-10",
+                  "id": "DA57395",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "startDate": "2019-09-10",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-05-01",
+                  "id": "DA46390",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "startDate": "2019-05-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-11-11",
+                  "id": "DA36545",
+                  "insurer": "We Insure Any Car",
+                  "rate": 539.23,
+                  "startDate": "2019-11-11",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Quotes"
+        items={
+          Array [
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12345",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "James",
+                      "middleName": "Roland",
+                      "surname": "Fowler",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "Jimmy123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12346",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "John",
+                      "middleName": "Robert",
+                      "surname": "Tucker",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "JohnABC",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "decline": "Unnaceptable CCJs",
+                  "id": "12347",
+                  "insurer": "ABC Insurance",
+                  "rate": 0,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "Connor",
+                      "middleName": "Adam",
+                      "surname": "Robertson",
+                    },
+                    "username": "Connor123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="History"
+        items={
+          Array [
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "John",
+                    "surname": "Smith",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Provided client with private car quote. Was unable to offer rate due to garaging address."
+              date="2019-11-19T16:18:41Z"
+              header="Private Car Quote"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Frank",
+                    "surname": "Castle",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Additional passenger added to Policy SN56789. Additional premium of £45.56."
+              date="2019-04-19T09:11:26Z"
+              header="Adjustment"
+              status="Success"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Jane",
+                    "surname": "Doe",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Policy SN23568 rejected due to fraudulent claim."
+              date="2018-06-15T12:54:22Z"
+              header="Rejected"
+              status="Danger"
+            />,
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Customer matches snapshot with no contact note history associated 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Mr John James Smith (Individual)"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Policies"
+        items={
+          Array [
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-09-10",
+                  "id": "DA57395",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "startDate": "2019-09-10",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-05-01",
+                  "id": "DA46390",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "startDate": "2019-05-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-11-11",
+                  "id": "DA36545",
+                  "insurer": "We Insure Any Car",
+                  "rate": 539.23,
+                  "startDate": "2019-11-11",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Quotes"
+        items={
+          Array [
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12345",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "James",
+                      "middleName": "Roland",
+                      "surname": "Fowler",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "Jimmy123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12346",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "John",
+                      "middleName": "Robert",
+                      "surname": "Tucker",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "JohnABC",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "decline": "Unnaceptable CCJs",
+                  "id": "12347",
+                  "insurer": "ABC Insurance",
+                  "rate": 0,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "Connor",
+                      "middleName": "Adam",
+                      "surname": "Robertson",
+                    },
+                    "username": "Connor123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="History"
+        items={Array []}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Customer matches snapshot with no policies associated 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Mr John James Smith (Individual)"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Policies"
+        items={Array []}
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Quotes"
+        items={
+          Array [
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12345",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "James",
+                      "middleName": "Roland",
+                      "surname": "Fowler",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "Jimmy123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "id": "12346",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "John",
+                      "middleName": "Robert",
+                      "surname": "Tucker",
+                    },
+                    "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                    "username": "JohnABC",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerQuote
+              quote={
+                Object {
+                  "decline": "Unnaceptable CCJs",
+                  "id": "12347",
+                  "insurer": "ABC Insurance",
+                  "rate": 0,
+                  "salesExecutive": Object {
+                    "name": Object {
+                      "forename": "Connor",
+                      "middleName": "Adam",
+                      "surname": "Robertson",
+                    },
+                    "username": "Connor123",
+                  },
+                  "startDate": "2019-12-01",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="History"
+        items={
+          Array [
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "John",
+                    "surname": "Smith",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Provided client with private car quote. Was unable to offer rate due to garaging address."
+              date="2019-11-19T16:18:41Z"
+              header="Private Car Quote"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Frank",
+                    "surname": "Castle",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Additional passenger added to Policy SN56789. Additional premium of £45.56."
+              date="2019-04-19T09:11:26Z"
+              header="Adjustment"
+              status="Success"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Jane",
+                    "surname": "Doe",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Policy SN23568 rejected due to fraudulent claim."
+              date="2018-06-15T12:54:22Z"
+              header="Rejected"
+              status="Danger"
+            />,
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Customer matches snapshot with no quotes associated 1`] = `
+<div
+  className="pageContainer"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="titleContainer"
+    >
+      <PageTitle
+        text="Mr John James Smith (Individual)"
+      />
+    </div>
+    <div
+      className="actionsContainer"
+    >
+      <Button
+        label="New Quote"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Policies"
+        items={
+          Array [
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-09-10",
+                  "id": "DA57395",
+                  "insurer": "We Insure Any Car",
+                  "rate": 392.63,
+                  "startDate": "2019-09-10",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-05-01",
+                  "id": "DA46390",
+                  "insurer": "I M Xpensive",
+                  "rate": 1485.21,
+                  "startDate": "2019-05-01",
+                  "type": "pc",
+                }
+              }
+            />,
+            <CustomerPolicy
+              policy={
+                Object {
+                  "endDate": "2020-11-11",
+                  "id": "DA36545",
+                  "insurer": "We Insure Any Car",
+                  "rate": 539.23,
+                  "startDate": "2019-11-11",
+                  "type": "pc",
+                }
+              }
+            />,
+          ]
+        }
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="Quotes"
+        items={Array []}
+        useDivider={true}
+      />
+    </div>
+    <div
+      className="infoBoxContainer"
+    >
+      <InfoBox
+        header="History"
+        items={
+          Array [
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "John",
+                    "surname": "Smith",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Provided client with private car quote. Was unable to offer rate due to garaging address."
+              date="2019-11-19T16:18:41Z"
+              header="Private Car Quote"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Frank",
+                    "surname": "Castle",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Additional passenger added to Policy SN56789. Additional premium of £45.56."
+              date="2019-04-19T09:11:26Z"
+              header="Adjustment"
+              status="Success"
+            />,
+            <ContactNote
+              author={
+                Object {
+                  "name": Object {
+                    "forename": "Jane",
+                    "surname": "Doe",
+                  },
+                  "profilePhoto": "/images/person-who-does-not-exist.jpg",
+                }
+              }
+              body="Policy SN23568 rejected due to fraudulent claim."
+              date="2018-06-15T12:54:22Z"
+              header="Rejected"
+              status="Danger"
+            />,
+          ]
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

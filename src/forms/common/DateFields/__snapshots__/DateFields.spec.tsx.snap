@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DateFields component story renders match snapshots: noValues 1`] = `
+<Fragment>
+  <TextField
+    additionalClasses={
+      Array [
+        "dateField",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Day"
+    maxLength={2}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="DD"
+    value=""
+  />
+  <TextField
+    additionalClasses={
+      Array [
+        "dateField",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Month"
+    maxLength={2}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="MM"
+    value=""
+  />
+  <TextField
+    additionalClasses={
+      Array [
+        "dateField",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Year"
+    maxLength={4}
+    onChange={[Function]}
+    placeholder="YYYY"
+    value=""
+  />
+</Fragment>
+`;
+
+exports[`DateFields component story renders match snapshots: withValues 1`] = `
+<Fragment>
+  <TextField
+    additionalClasses={
+      Array [
+        "dateField",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Day"
+    maxLength={2}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="DD"
+    value="03"
+  />
+  <TextField
+    additionalClasses={
+      Array [
+        "dateField",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Month"
+    maxLength={2}
+    onBlur={[Function]}
+    onChange={[Function]}
+    placeholder="MM"
+    value="01"
+  />
+  <TextField
+    additionalClasses={
+      Array [
+        "dateField",
+      ]
+    }
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    label="Year"
+    maxLength={4}
+    onChange={[Function]}
+    placeholder="YYYY"
+    value="2020"
+  />
+</Fragment>
+`;

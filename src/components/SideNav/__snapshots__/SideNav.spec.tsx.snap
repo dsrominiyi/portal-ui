@@ -1,0 +1,384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideNav component story renders match snapshots: customerOverviewConfig 1`] = `
+<div
+  className="sideNav"
+>
+  <div
+    className="headerContainer"
+  >
+    <svg />
+  </div>
+  <NavLink
+    href="/dashboard"
+    icon={
+      <i
+        className="fas fa-ellipsis-h"
+      />
+    }
+    isMiniLink={false}
+    key="Dashboard"
+    label="Dashboard"
+  />
+  <ExpandableNavLink
+    icon={
+      <i
+        className="fas fa-users"
+      />
+    }
+    isMiniLink={false}
+    key="Customer"
+    label="Customer"
+    subItems={
+      Array [
+        Object {
+          "href": "/new-individual",
+          "label": "New Individual",
+        },
+        Object {
+          "href": "/new-company",
+          "label": "New Company",
+        },
+        Object {
+          "label": "Find Customer",
+        },
+      ]
+    }
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-user"
+      />
+    }
+    isActive={true}
+    isMiniLink={false}
+    key="Customer Overview"
+    label="Customer Overview"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-user-edit"
+      />
+    }
+    isMiniLink={false}
+    key="Customer Details"
+    label="Customer Details"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-folder"
+      />
+    }
+    isMiniLink={false}
+    key="Policies"
+    label="Policies"
+  />
+  <NavLink
+    href="/customer/quotes"
+    icon={
+      <i
+        className="fas fa-folder-open"
+      />
+    }
+    isMiniLink={false}
+    key="Quotes"
+    label="Quotes"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-link"
+      />
+    }
+    isMiniLink={false}
+    key="Cross Sell"
+    label="Cross Sell"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-history"
+      />
+    }
+    isMiniLink={false}
+    key="History"
+    label="History"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-envelope-open-text"
+      />
+    }
+    isMiniLink={false}
+    key="Letters"
+    label="Letters"
+  />
+  <div
+    className="divider"
+    key="9"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-calendar-alt"
+      />
+    }
+    isMiniLink={false}
+    key="Diary"
+    label="Diary"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-file-alt"
+      />
+    }
+    isMiniLink={false}
+    key="Renewals"
+    label="Renewals"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-sliders-h"
+      />
+    }
+    isMiniLink={false}
+    key="Office Management"
+    label="Office Management"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-credit-card"
+      />
+    }
+    isMiniLink={false}
+    key="Payments"
+    label="Payments"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-file-pdf"
+      />
+    }
+    isMiniLink={false}
+    key="Reports"
+    label="Reports"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-comments"
+      />
+    }
+    isMiniLink={false}
+    key="Messages"
+    label="Messages"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-frown"
+      />
+    }
+    isMiniLink={false}
+    key="Complaints"
+    label="Complaints"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-cog"
+      />
+    }
+    isMiniLink={false}
+    key="Settings"
+    label="Settings"
+  />
+  <div
+    className="toggleButton"
+  >
+    <CircularButton
+      label={<SvgChevronLeft />}
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`SideNav component story renders match snapshots: dashboardConfig 1`] = `
+<div
+  className="sideNav"
+>
+  <div
+    className="headerContainer"
+  >
+    <svg />
+  </div>
+  <NavLink
+    href="/dashboard"
+    icon={
+      <i
+        className="fas fa-ellipsis-h"
+      />
+    }
+    isActive={true}
+    isMiniLink={false}
+    key="Dashboard"
+    label="Dashboard"
+  />
+  <ExpandableNavLink
+    icon={
+      <i
+        className="fas fa-users"
+      />
+    }
+    isMiniLink={false}
+    key="Customer"
+    label="Customer"
+    subItems={
+      Array [
+        Object {
+          "href": "/new-individual",
+          "label": "New Individual",
+        },
+        Object {
+          "href": "/new-company",
+          "label": "New Company",
+        },
+        Object {
+          "label": "Find Customer",
+        },
+      ]
+    }
+  />
+  <div
+    className="divider"
+    key="2"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-calendar-alt"
+      />
+    }
+    isMiniLink={false}
+    key="Diary"
+    label="Diary"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-file-alt"
+      />
+    }
+    isMiniLink={false}
+    key="Renewals"
+    label="Renewals"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-sliders-h"
+      />
+    }
+    isMiniLink={false}
+    key="Office Management"
+    label="Office Management"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-credit-card"
+      />
+    }
+    isMiniLink={false}
+    key="Payments"
+    label="Payments"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-file-pdf"
+      />
+    }
+    isMiniLink={false}
+    key="Reports"
+    label="Reports"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-comments"
+      />
+    }
+    isMiniLink={false}
+    key="Messages"
+    label="Messages"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-frown"
+      />
+    }
+    isMiniLink={false}
+    key="Complaints"
+    label="Complaints"
+  />
+  <NavLink
+    icon={
+      <i
+        className="fas fa-cog"
+      />
+    }
+    isMiniLink={false}
+    key="Settings"
+    label="Settings"
+  />
+  <div
+    className="toggleButton"
+  >
+    <CircularButton
+      label={<SvgChevronLeft />}
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`SideNav component story renders match snapshots: invalidItems 1`] = `
+<div
+  className="sideNav"
+>
+  <div
+    className="toggleButton"
+  >
+    <CircularButton
+      label={<SvgChevronLeft />}
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`SideNav component story renders match snapshots: noItems 1`] = `
+<div
+  className="sideNav"
+>
+  <div
+    className="toggleButton"
+  >
+    <CircularButton
+      label={<SvgChevronLeft />}
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

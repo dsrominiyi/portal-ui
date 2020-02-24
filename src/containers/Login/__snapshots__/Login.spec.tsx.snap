@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login container matches snapshot 1`] = `
+<div
+  className="loginContainer"
+>
+  <div
+    className="imageContainer"
+  />
+  <div
+    className="formGroup"
+  >
+    <div
+      className="logoContainer"
+    >
+      <img
+        alt="Coversure"
+        className="logo"
+        src="test-file-stub"
+      />
+    </div>
+    <div
+      className="formField"
+    >
+      <TextField
+        additionalClasses={
+          Array [
+            "textField",
+          ]
+        }
+        icon={<SvgUser />}
+        label="Email Address"
+        onChange={[Function]}
+        password={false}
+        value=""
+      />
+    </div>
+    <div
+      className="formField"
+    >
+      <TextField
+        additionalClasses={
+          Array [
+            "textField",
+          ]
+        }
+        icon={<SvgLock />}
+        label="Password"
+        onChange={[Function]}
+        password={true}
+        value=""
+      />
+    </div>
+    <div
+      className="formLinks"
+    >
+      <div
+        className="formLinkContainer rememberMe"
+      >
+        <Checkbox
+          checked={false}
+          label="Remember me"
+          onChange={[Function]}
+        />
+      </div>
+      <div
+        className="formLinkContainer forgotPassword"
+      >
+        <Link
+          href="/forgot"
+          label="Forgot password"
+        />
+      </div>
+    </div>
+    <div
+      className="formLinks"
+    >
+      <Button
+        additionalClasses={
+          Array [
+            "loginButton",
+          ]
+        }
+        label="Login"
+        onClick={[Function]}
+        status="Success"
+      />
+    </div>
+  </div>
+</div>
+`;

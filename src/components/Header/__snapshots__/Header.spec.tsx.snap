@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component story renders match snapshots: leftItemsOnly 1`] = `
+<div
+  className="headerContainer"
+>
+  <div
+    className="leftItems"
+  >
+    <div
+      className="headerItem"
+      key="0"
+    >
+      <h4
+        key="0"
+      >
+        Left Item 1
+      </h4>
+    </div>
+    <div
+      className="headerItem"
+      key="1"
+    >
+      <h4
+        key="1"
+      >
+        Left Item 2
+      </h4>
+    </div>
+  </div>
+  <div
+    className="rightItems"
+  />
+</div>
+`;
+
+exports[`Header component story renders match snapshots: rightAndLeftItems 1`] = `
+<div
+  className="headerContainer"
+>
+  <div
+    className="leftItems"
+  >
+    <div
+      className="headerItem"
+      key="0"
+    >
+      <h4
+        key="0"
+      >
+        Left Item 1
+      </h4>
+    </div>
+    <div
+      className="headerItem"
+      key="1"
+    >
+      <h4
+        key="1"
+      >
+        Left Item 2
+      </h4>
+    </div>
+  </div>
+  <div
+    className="rightItems"
+  >
+    <div
+      className="headerItem"
+      key="0"
+    >
+      <IconLink
+        icon={<SvgComments />}
+        key="0"
+        newTab={false}
+        notificationCount={4}
+        onClick={[Function]}
+        status="Success"
+        title="Comments"
+      />
+    </div>
+    <div
+      className="headerItem"
+      key="1"
+    >
+      <IconLink
+        icon={<SvgBell />}
+        key="1"
+        newTab={false}
+        notificationCount={2}
+        onClick={[Function]}
+        status="Warning"
+        title="Alerts"
+      />
+    </div>
+    <div
+      className="headerItem"
+      key="2"
+    >
+      <UserLink
+        key="2"
+        name={
+          Object {
+            "forename": "Test",
+            "surname": "User",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header component story renders match snapshots: rightItemsOnly 1`] = `
+<div
+  className="headerContainer"
+>
+  <div
+    className="leftItems"
+  />
+  <div
+    className="rightItems"
+  >
+    <div
+      className="headerItem"
+      key="0"
+    >
+      <IconLink
+        icon={<SvgComments />}
+        key="0"
+        newTab={false}
+        notificationCount={4}
+        onClick={[Function]}
+        status="Success"
+        title="Comments"
+      />
+    </div>
+    <div
+      className="headerItem"
+      key="1"
+    >
+      <IconLink
+        icon={<SvgBell />}
+        key="1"
+        newTab={false}
+        notificationCount={2}
+        onClick={[Function]}
+        status="Warning"
+        title="Alerts"
+      />
+    </div>
+    <div
+      className="headerItem"
+      key="2"
+    >
+      <UserLink
+        key="2"
+        name={
+          Object {
+            "forename": "Test",
+            "surname": "User",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

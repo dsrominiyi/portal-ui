@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddItemsField AddItemsField matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Button
+          attributes={
+            Object {
+              "test-id": "add-new-item",
+            }
+          }
+          label="Add New Item"
+          onClick={[Function]}
+          status="Success"
+        />,
+        false,
+      ]
+    }
+    text="Add items"
+  />
+  <Modal
+    body={
+      Array [
+        <form
+          additionalClasses={
+            Array [
+              "modalForm",
+            ]
+          }
+          onChange={[Function]}
+          onSubmit={[Function]}
+          submissionAttempted={false}
+        />,
+      ]
+    }
+    footer={
+      <div
+        className="footerActions"
+      >
+        <Button
+          attributes={
+            Object {
+              "test-id": "dismiss-new-item-modal",
+            }
+          }
+          label="Cancel"
+          onClick={[Function]}
+        />
+        <Button
+          attributes={
+            Object {
+              "test-id": "save-new-item",
+            }
+          }
+          label="Add"
+          onClick={[Function]}
+          status="Success"
+        />
+      </div>
+    }
+    header="Add New Item"
+    hideModal={[Function]}
+    isVisible={false}
+  />
+</Fragment>
+`;
+
+exports[`AddItemsField AddItemsField with initial items matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    inputFields={
+      Array [
+        <Button
+          attributes={
+            Object {
+              "test-id": "add-new-item",
+            }
+          }
+          label="Add New Item"
+          onClick={[Function]}
+          status="Success"
+        />,
+        <table
+          items={
+            Array [
+              Object {
+                "name": "item",
+              },
+              Object {
+                "name": "item2",
+              },
+            ]
+          }
+          onDelete={[Function]}
+          onEdit={[Function]}
+        />,
+      ]
+    }
+    text="Add items"
+  />
+  <Modal
+    body={
+      Array [
+        <form
+          additionalClasses={
+            Array [
+              "modalForm",
+            ]
+          }
+          onChange={[Function]}
+          onSubmit={[Function]}
+          submissionAttempted={false}
+        />,
+      ]
+    }
+    footer={
+      <div
+        className="footerActions"
+      >
+        <Button
+          attributes={
+            Object {
+              "test-id": "dismiss-new-item-modal",
+            }
+          }
+          label="Cancel"
+          onClick={[Function]}
+        />
+        <Button
+          attributes={
+            Object {
+              "test-id": "save-new-item",
+            }
+          }
+          label="Add"
+          onClick={[Function]}
+          status="Success"
+        />
+      </div>
+    }
+    header="Add New Item"
+    hideModal={[Function]}
+    isVisible={false}
+  />
+</Fragment>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AffixedField component story renders match snapshots: prefixed 1`] = `
+<div
+  className="affixedFieldWrapper"
+>
+  <div
+    className="prefix"
+  >
+    £
+  </div>
+  <TextField
+    onChange={[Function]}
+  />
+  <div
+    className="suffix"
+  />
+</div>
+`;
+
+exports[`AffixedField component story renders match snapshots: prefixedSuffixed 1`] = `
+<div
+  className="affixedFieldWrapper"
+>
+  <div
+    className="prefix"
+  >
+    £
+  </div>
+  <TextField
+    onChange={[Function]}
+  />
+  <div
+    className="suffix"
+  >
+    per month
+  </div>
+</div>
+`;
+
+exports[`AffixedField component story renders match snapshots: suffixed 1`] = `
+<div
+  className="affixedFieldWrapper"
+>
+  <div
+    className="prefix"
+  />
+  <TextField
+    onChange={[Function]}
+  />
+  <div
+    className="suffix"
+  >
+    miles
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CircularButton component story renders match snapshots: leftArrowIcon 1`] = `
+<Button
+  classNames={
+    Array [
+      "circularButton",
+    ]
+  }
+  label={<SvgChevronLeft />}
+  onClick={[Function]}
+/>
+`;
+
+exports[`CircularButton component story renders match snapshots: rightArrowIcon 1`] = `
+<Button
+  classNames={
+    Array [
+      "circularButton",
+    ]
+  }
+  label={<SvgChevronRight />}
+  onClick={[Function]}
+/>
+`;

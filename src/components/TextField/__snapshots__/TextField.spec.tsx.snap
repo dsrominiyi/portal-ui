@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField component story renders match snapshots: emailField 1`] = `
+<div
+  className="textField"
+>
+  <div
+    className="label"
+  >
+    Email Address
+  </div>
+  <div
+    className="inputContainer"
+  >
+    <input
+      className="input withIcon"
+      onChange={[Function]}
+      type="text"
+      value="test@datamatters.co.uk"
+    />
+    <span
+      className="fieldIcon"
+    >
+      <SvgUser />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`TextField component story renders match snapshots: invalid 1`] = `
+<div
+  className="textField"
+>
+  <div
+    className="inputContainer"
+  >
+    <input
+      className="input isInvalid"
+      onChange={[Function]}
+      placeholder="Placeholder text"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`TextField component story renders match snapshots: passwordField 1`] = `
+<div
+  className="textField"
+>
+  <div
+    className="label"
+  >
+    Password
+  </div>
+  <div
+    className="inputContainer"
+  >
+    <input
+      className="input withIcon"
+      onChange={[Function]}
+      type="password"
+      value="testpass"
+    />
+    <span
+      className="fieldIcon"
+    >
+      <SvgLock />
+    </span>
+  </div>
+</div>
+`;
+
+exports[`TextField component story renders match snapshots: withPlaceholder 1`] = `
+<div
+  className="textField"
+>
+  <div
+    className="inputContainer"
+  >
+    <input
+      className="input"
+      onChange={[Function]}
+      placeholder="Placeholder text"
+      type="text"
+    />
+  </div>
+</div>
+`;

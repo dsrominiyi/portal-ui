@@ -1,0 +1,39 @@
+@import '../../style/vars';
+
+.top-container {
+  display: flex;
+  padding: 1.5rem 1rem;
+
+  .title-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 75%;
+  }
+
+  .actions-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    max-width: 25%;
+
+    button {
+      min-height: 55px;
+    }
+  }
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: repeat(3, 33.333% [col-start]);
+  box-sizing: border-box;
+  column-gap: normal;
+  row-gap: 3rem;
+
+  .info-box-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+  }
+}

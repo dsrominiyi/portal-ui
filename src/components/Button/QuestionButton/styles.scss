@@ -1,0 +1,39 @@
+@import '../../../style/_vars';
+
+.question-button {
+  margin: 0;
+  overflow: visible;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 38px;
+  text-align: center;
+  font-weight: 400;
+  padding: 10px 30px;
+  border-radius: 0.25rem;
+  border: none;
+  background-color: $brand-white-smoke;
+  color: $brand-black;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2), inset 0 -3px 0 rgba(0, 0, 0, 0.22);
+  transition: all 0.3s ease;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:active {
+    border: none;
+  }
+
+  &:disabled {
+    background-color: $brand-white-smoke;
+    color: $brand-grey-white;
+    cursor: default;
+  }
+}
+
+.active {
+  background: $brand-success;
+  color: $brand-white-smoke;
+}

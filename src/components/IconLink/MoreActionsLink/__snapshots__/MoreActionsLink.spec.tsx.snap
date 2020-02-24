@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconLinkAction component story renders match snapshots: moreIcon 1`] = `
+<IconLink
+  additionalClasses={
+    Array [
+      "iconLinkAction",
+    ]
+  }
+  icon={
+    <SvgMore
+      onClick={[Function]}
+    />
+  }
+  title="More"
+/>
+`;

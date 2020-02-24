@@ -1,0 +1,13 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 86">
+  <title>ct</title>
+  <g id="Circle">
+    <circle style="fill:#0c2340;" cx="43" cy="43" r="43"/>
+  </g>
+  <g id="Caterers">
+    <path style="fill:#fff;" d="M305.55,268.24l-1.85-.47-3.26,11.48H284l.71,5.85h1.11c5.9,0,12.18,4.42,12.18,10.17V307a10.79,10.79,0,0,1-.76,3.86h4.23l4-31.65-3,0Z" transform="translate(-240 -250)"/>
+    <path style="fill:#fff;" d="M260.1,309.7c0,2,2.31,4.08,4.34,4.08h26.4a4.52,4.52,0,0,0,4.22-4.08v-1.77h-35Z" transform="translate(-240 -250)"/>
+    <path style="fill:#fff;" d="M294.91,301.49H260.38a2.05,2.05,0,0,0,0,4.1h34.53a2.05,2.05,0,0,0,0-4.1" transform="translate(-240 -250)"/>
+    <path style="fill:#fff;" d="M295.06,295.42c0-5.1-6.25-8-12.34-8H272.56c-6.09,0-12.46,2.88-12.46,8v4.31h35Z" transform="translate(-240 -250)"/>
+  </g>
+</svg>

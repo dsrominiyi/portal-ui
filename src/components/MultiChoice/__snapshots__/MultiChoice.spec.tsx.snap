@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiChoice component story renders match snapshots: disabledOptions 1`] = `
+<div
+  className="options"
+>
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={true}
+    key="0"
+    label="Car Park"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="1"
+    label="Garage"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={true}
+    key="2"
+    label="Road"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="3"
+    label="Off-road"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`MultiChoice component story renders match snapshots: multiSelect 1`] = `
+<div
+  className="options"
+>
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={true}
+    isDisabled={false}
+    key="0"
+    label="Car Park"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="1"
+    label="Garage"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={true}
+    isDisabled={false}
+    key="2"
+    label="Road"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="3"
+    label="Off-road"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`MultiChoice component story renders match snapshots: notSelected 1`] = `
+<div
+  className="options"
+>
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="0"
+    label="Car Park"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="1"
+    label="Garage"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="2"
+    label="Road"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="3"
+    label="Off-road"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`MultiChoice component story renders match snapshots: selected 1`] = `
+<div
+  className="options"
+>
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="0"
+    label="Car Park"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={true}
+    isDisabled={false}
+    key="1"
+    label="Garage"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="2"
+    label="Road"
+    onClick={[Function]}
+  />
+  <QuestionButton
+    attributes={
+      Object {
+        "test-id": "",
+      }
+    }
+    isActive={false}
+    isDisabled={false}
+    key="3"
+    label="Off-road"
+    onClick={[Function]}
+  />
+</div>
+`;

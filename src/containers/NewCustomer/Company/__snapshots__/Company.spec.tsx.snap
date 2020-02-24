@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewCompany NewCompany container matches snapshot 1`] = `
+<div
+  className="pageContainer"
+>
+  <PageTitle
+    text="New Company"
+  />
+  <InfoBox
+    items={
+      Array [
+        <React.Fragment>
+          <div
+            className="formSection"
+            test-id="new-company-details"
+          >
+            <h3>
+              Company Details
+            </h3>
+            <QuestionBox
+              inputFields={
+                Array [
+                  <TextField
+                    additionalClasses={
+                      Array [
+                        "formTextField",
+                      ]
+                    }
+                    attributes={
+                      Object {
+                        "test-id": "company-name",
+                      }
+                    }
+                    label="Company Name"
+                    onChange={[Function]}
+                    value=""
+                  />,
+                ]
+              }
+              text=""
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <TextField
+                    additionalClasses={
+                      Array [
+                        "formTextField",
+                      ]
+                    }
+                    attributes={
+                      Object {
+                        "test-id": "trading-name",
+                      }
+                    }
+                    label="Trading name (optional)"
+                    onChange={[Function]}
+                    value=""
+                  />,
+                ]
+              }
+              text=""
+            />
+            <SelectCompanyTypeStatus
+              onChange={[Function]}
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <AbiSearch
+                    attributes={
+                      Object {
+                        "test-id": "business-class",
+                      }
+                    }
+                    codeListId="11"
+                    label="Business class"
+                    onChange={[Function]}
+                  />,
+                ]
+              }
+              text=""
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <DateFields
+                    onChange={[Function]}
+                    testId="trading-since-date"
+                    values={
+                      Object {
+                        "dd": "",
+                        "mm": "",
+                        "yyyy": "",
+                      }
+                    }
+                  />,
+                ]
+              }
+              text="Trading since date (optional)"
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <TextField
+                    additionalClasses={
+                      Array [
+                        "formTextField",
+                      ]
+                    }
+                    attributes={
+                      Object {
+                        "test-id": "registration-number",
+                      }
+                    }
+                    label="Registration number"
+                    onChange={[Function]}
+                    value=""
+                  />,
+                ]
+              }
+              text=""
+            />
+            <QuestionBox
+              inputFields={
+                Array [
+                  <MultiChoice
+                    attributes={
+                      Object {
+                        "test-id": "select-subsidiary-status",
+                      }
+                    }
+                    onClick={[Function]}
+                    options={
+                      Array [
+                        "Yes",
+                        "No",
+                      ]
+                    }
+                  />,
+                ]
+              }
+              text="Is this company a subsidiary?"
+            />
+            <SubQuestion
+              items={
+                Array [
+                  <AddSubsidiariesField
+                    onChange={[Function]}
+                  />,
+                ]
+              }
+              visible={false}
+            />
+            <SubQuestion
+              items={
+                Array [
+                  <QuestionBox
+                    inputFields={
+                      Array [
+                        <TextField
+                          additionalClasses={
+                            Array [
+                              "formTextField",
+                            ]
+                          }
+                          attributes={
+                            Object {
+                              "test-id": "parent-company-name",
+                            }
+                          }
+                          label="Please enter the parent company's name"
+                          onChange={[Function]}
+                          value=""
+                        />,
+                      ]
+                    }
+                    text=""
+                  />,
+                ]
+              }
+              visible={false}
+            />
+            <AddContactDetailsField
+              onChange={[Function]}
+            />
+            <AddAdditionalContactsField
+              onChange={[Function]}
+            />
+          </div>
+          <div
+            className="formSection"
+            test-id="new-company-address-details"
+          >
+            <h3>
+              Address Details
+            </h3>
+            <AddAddressesField
+              addresses={Array []}
+              customerType="Company"
+              onChange={[Function]}
+            />
+          </div>
+          <ContactPreferencesForm
+            contactDetails={Array []}
+            onChange={[Function]}
+          />
+        </React.Fragment>,
+      ]
+    }
+  />
+</div>
+`;

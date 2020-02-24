@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@datamatters",
+      "./src/types.d.ts",
+      "./src/types.modules.d.ts"
+    ],
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "newLine": "lf"
+  },
+  "exclude": [
+    "node_modules",
+    ".storybook",
+    "__mocks__",
+    "src/helpers/test",
+    "**/*.spec.ts",
+    "**/*.spec.tsx",
+    "**/*.stories.tsx",
+    "jest.setup.ts",
+    "jest.initial.setup.ts"
+  ],
+  "include": [
+    "**/*.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}

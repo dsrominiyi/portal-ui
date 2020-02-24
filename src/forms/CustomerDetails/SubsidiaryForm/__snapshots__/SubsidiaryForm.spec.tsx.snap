@@ -1,0 +1,412 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SubsidiaryForm snapshots SubsidiaryForm matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-subsidiary-form"
+>
+  <h3>
+    Company Details
+  </h3>
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "company-name",
+            }
+          }
+          label="Company Name"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Company Name"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "trading-name",
+            }
+          }
+          label="Trading name (optional)"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Trading name (optional)"
+    text=""
+  />
+  <SelectCompanyTypeStatus
+    onChange={[Function]}
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <AbiSearch
+          attributes={
+            Object {
+              "test-id": "business-class",
+            }
+          }
+          codeListId="11"
+          label="Business class"
+          onChange={[Function]}
+        />,
+      ]
+    }
+    key="Business class"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <DateFields
+          onChange={[Function]}
+          testId="trading-since-date"
+          values={
+            Object {
+              "dd": "",
+              "mm": "",
+              "yyyy": "",
+            }
+          }
+        />,
+      ]
+    }
+    key="Trading since date (optional)"
+    text="Trading since date (optional)"
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "registration-number",
+            }
+          }
+          label="Registration number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Registration number"
+    text=""
+  />
+  <AddContactDetailsField
+    contactDetails={Array []}
+    onChange={[Function]}
+  />
+  <AddAdditionalContactsField
+    additionalContacts={Array []}
+    onChange={[Function]}
+  />
+  <h3>
+    Address Details
+  </h3>
+  <AddAddressesField
+    addresses={Array []}
+    customerType="Company"
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`SubsidiaryForm snapshots SubsidiaryForm with initial values matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-subsidiary-form"
+>
+  <h3>
+    Company Details
+  </h3>
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "company-name",
+            }
+          }
+          label="Company Name"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Company Name"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "trading-name",
+            }
+          }
+          label="Trading name (optional)"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Trading name (optional)"
+    text=""
+  />
+  <SelectCompanyTypeStatus
+    onChange={[Function]}
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <AbiSearch
+          attributes={
+            Object {
+              "test-id": "business-class",
+            }
+          }
+          codeListId="11"
+          label="Business class"
+          onChange={[Function]}
+        />,
+      ]
+    }
+    key="Business class"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <DateFields
+          onChange={[Function]}
+          testId="trading-since-date"
+          values={
+            Object {
+              "dd": "",
+              "mm": "",
+              "yyyy": "",
+            }
+          }
+        />,
+      ]
+    }
+    key="Trading since date (optional)"
+    text="Trading since date (optional)"
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "registration-number",
+            }
+          }
+          label="Registration number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Registration number"
+    text=""
+  />
+  <AddContactDetailsField
+    contactDetails={Array []}
+    onChange={[Function]}
+  />
+  <AddAdditionalContactsField
+    additionalContacts={Array []}
+    onChange={[Function]}
+  />
+  <h3>
+    Address Details
+  </h3>
+  <AddAddressesField
+    addresses={Array []}
+    customerType="Company"
+    onChange={[Function]}
+  />
+</div>
+`;
+
+exports[`SubsidiaryForm snapshots SubsidiaryForm without form errors matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="new-subsidiary-form"
+>
+  <h3>
+    Company Details
+  </h3>
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "company-name",
+            }
+          }
+          label="Company Name"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Company Name"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "trading-name",
+            }
+          }
+          label="Trading name (optional)"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Trading name (optional)"
+    text=""
+  />
+  <SelectCompanyTypeStatus
+    onChange={[Function]}
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <AbiSearch
+          attributes={
+            Object {
+              "test-id": "business-class",
+            }
+          }
+          codeListId="11"
+          label="Business class"
+          onChange={[Function]}
+        />,
+      ]
+    }
+    key="Business class"
+    text=""
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <DateFields
+          onChange={[Function]}
+          testId="trading-since-date"
+          values={
+            Object {
+              "dd": "",
+              "mm": "",
+              "yyyy": "",
+            }
+          }
+        />,
+      ]
+    }
+    key="Trading since date (optional)"
+    text="Trading since date (optional)"
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "registration-number",
+            }
+          }
+          label="Registration number"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+    key="Registration number"
+    text=""
+  />
+  <AddContactDetailsField
+    contactDetails={Array []}
+    onChange={[Function]}
+  />
+  <AddAdditionalContactsField
+    additionalContacts={Array []}
+    onChange={[Function]}
+  />
+  <h3>
+    Address Details
+  </h3>
+  <AddAddressesField
+    addresses={Array []}
+    customerType="Company"
+    onChange={[Function]}
+  />
+</div>
+`;

@@ -1,0 +1,27 @@
+@import '../../../style/vars';
+
+.circular-button {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  outline: none;
+  color: $brand-white;
+  background-color: $brand-success;
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($brand-success, 10%);
+  }
+
+  svg {
+    path {
+      stroke: $brand-white;
+      stroke-width: 2;
+    }
+  }
+}

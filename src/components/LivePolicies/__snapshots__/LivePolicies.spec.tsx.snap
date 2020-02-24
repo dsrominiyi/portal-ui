@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LivePolicies component story renders match snapshots: withNoPolicies 1`] = `
+<div
+  className="numberOfPolicies"
+>
+  <div
+    className="policyCount"
+  >
+    0
+  </div>
+  <div
+    className="policyText"
+  >
+    Live Policies
+  </div>
+</div>
+`;
+
+exports[`LivePolicies component story renders match snapshots: withPolicies 1`] = `
+<div
+  className="numberOfPolicies"
+>
+  <div
+    className="policyCount"
+  >
+    3
+  </div>
+  <div
+    className="policyText"
+  >
+    Live Policies
+  </div>
+</div>
+`;

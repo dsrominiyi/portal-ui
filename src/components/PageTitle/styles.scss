@@ -1,0 +1,9 @@
+@import '../../style/vars';
+
+.page-title {
+  display: flex;
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: $brand-black;
+  padding: 1.5rem 0.5rem 2rem 0.5rem;
+}

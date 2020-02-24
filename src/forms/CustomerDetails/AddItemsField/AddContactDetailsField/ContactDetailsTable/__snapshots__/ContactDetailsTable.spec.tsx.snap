@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactDetailsTable ContactDetailsTable matches snapshot 1`] = `
+<TableDisplay
+  additionalClasses={
+    Array [
+      "contactDetailsTable",
+    ]
+  }
+  attributes={
+    Object {
+      "test-id": "contact-details-table",
+    }
+  }
+  headers={
+    Array [
+      "Contact",
+    ]
+  }
+  onDelete={[Function]}
+  onEdit={[Function]}
+  rows={
+    Array [
+      Array [
+        "Home Number: 08589392900",
+      ],
+      Array [
+        "Work Email: jsmith@test.com",
+      ],
+    ]
+  }
+/>
+`;

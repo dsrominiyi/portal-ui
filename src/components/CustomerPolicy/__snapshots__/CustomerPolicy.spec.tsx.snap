@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomerPolicy component story renders match snapshots: invalidPolicy 1`] = `""`;
+
+exports[`CustomerPolicy component story renders match snapshots: lapsedPolicy 1`] = `
+<PolicyWidget
+  additionalItems={
+    Array [
+      <div
+        className="timeRemainingContainer"
+      >
+        <TimeRemaining
+          endDate="2019-11-01"
+          startDate="2018-11-01"
+        />
+      </div>,
+    ]
+  }
+  id="12347"
+  type="pc"
+/>
+`;
+
+exports[`CustomerPolicy component story renders match snapshots: validPolicy 1`] = `
+<PolicyWidget
+  additionalItems={
+    Array [
+      <div
+        className="timeRemainingContainer"
+      >
+        <TimeRemaining
+          endDate="2020-11-01"
+          startDate="2019-11-01"
+        />
+      </div>,
+    ]
+  }
+  id="12347"
+  type="pc"
+/>
+`;

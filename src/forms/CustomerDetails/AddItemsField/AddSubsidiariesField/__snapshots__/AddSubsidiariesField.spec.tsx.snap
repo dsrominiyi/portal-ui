@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddSubsidiariesField AddSubsidiariesField matches snapshot 1`] = `
+<AddItemsField
+  fieldText="Subsidiaries (optional)"
+  form={[Function]}
+  itemName="subsidiary"
+  onChange={[MockFunction]}
+  table={[Function]}
+/>
+`;

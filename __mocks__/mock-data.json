@@ -1,0 +1,312 @@
+{
+  "users": [
+    {
+      "username": "TestBroker",
+      "name": {
+        "forename": "Test",
+        "surname": "Broker"
+      },
+      "profilePhoto": "/images/person-who-does-not-exist.jpg"
+    }
+  ],
+  "customers": [
+    {
+      "id": "76abf8cb-2e71-4fc5-8e11-198fa20f2894",
+      "type": "Individual",
+      "data": {
+        "name": {
+          "title": "Mr",
+          "forename": "John",
+          "middleName": "James",
+          "surname": "Smith"
+        },
+        "contactDetails": [
+          {
+            "type": "Work Email",
+            "detail": "john.smith@datamatters.co.uk"
+          },
+          {
+            "type": "Personal Phone",
+            "detail": "0800 308 1180",
+            "realtionshipToCustomer": "brother"
+          }
+        ],
+        "occupations": [
+          {
+            "employmentType": "employed",
+            "occupation": "lawyer",
+            "business": "legal",
+            "fullTime": true
+          }
+        ],
+        "addresses": [
+          {
+            "type": "Residential",
+            "organisation": "ABC Brokers Ltd",
+            "buildingName": "The Shard",
+            "subBuildingName": "Block 2",
+            "buildingNumber": "12",
+            "thoroughfare": "St Peters Road",
+            "subThoroughfare": "Fib Street",
+            "locality": "Manchester",
+            "town": "Bury",
+            "county": "Greater Manchester",
+            "postcode": "BL90DN"
+          }
+        ],
+        "maritalStatus": "Married",
+        "homeowner": true,
+        "sex": "Male",
+        "date_of_birth": "1987-12-09",
+        "deceased": false,
+        "residentSinceBirth": true,
+        "residencyDate": "1987-12-09"
+      },
+      "metaData": {
+        "status": "live",
+        "createdAt": "2018-11-13T20:20:39+00:00",
+        "updatedAt": "2018-11-13T20:20:39+00:00"
+      }
+    },
+    {
+      "id": "7c9b5f7b-6a8f-4c44-ae98-958276f83ea5",
+      "type": "Company",
+      "data": {
+        "company_name": "Datamatters",
+        "contactDetails": [
+          {
+            "type": "Work Email",
+            "detail": "info@datamatters.co.uk"
+          },
+          {
+            "type": "Work Number",
+            "detail": "0800 308 1180"
+          }
+        ],
+        "addresses": [
+          {
+            "type": "Registered",
+            "organisation": "Datamatters Ltd",
+            "buildingName": "The Exchange",
+            "buildingNumber": "5",
+            "thoroughfare": "Bank St",
+            "locality": "Manchester",
+            "town": "Bury",
+            "county": "Greater Manchester",
+            "postcode": "BL90DN"
+          }
+        ],
+        "typeStatus": "Limited",
+        "trading_name": "Datamatters",
+        "tradingSinceDate": "1980-01-01",
+        "businessClass": "insurance",
+        "parentCompany": false,
+        "parentCompanyName": "Jensten Group",
+        "registered_co_number": "01234567"
+      },
+      "metaData": {
+        "status": "live",
+        "createdAt": "2019-12-24T11:54:32.695Z",
+        "updatedAt": "2019-12-24T11:54:32.695Z"
+      }
+    }
+  ],
+  "quotes": [
+    {
+      "id": "12345",
+      "type": "pc",
+      "startDate": "2019-12-01",
+      "insurer": "We Insure Any Car",
+      "rate": 392.63,
+      "salesExecutive": {
+        "name": {
+          "forename": "James",
+          "middleName": "Roland",
+          "surname": "Fowler"
+        },
+        "username": "Jimmy123",
+        "profilePhoto": "/images/person-who-does-not-exist.jpg"
+      }
+    },
+    {
+      "id": "12346",
+      "type": "pc",
+      "startDate": "2019-12-01",
+      "insurer": "I M Xpensive",
+      "rate": 1485.21,
+      "salesExecutive": {
+        "name": {
+          "forename": "John",
+          "middleName": "Robert",
+          "surname": "Tucker"
+        },
+        "username": "JohnABC",
+        "profilePhoto": "/images/person-who-does-not-exist.jpg"
+      }
+    },
+    {
+      "id": "12347",
+      "type": "pc",
+      "startDate": "2019-12-01",
+      "insurer": "ABC Insurance",
+      "rate": 0,
+      "decline": "Unnaceptable CCJs",
+      "salesExecutive": {
+        "name": {
+          "forename": "Connor",
+          "middleName": "Adam",
+          "surname": "Robertson"
+        },
+        "username": "Connor123"
+      }
+    }
+  ],
+  "policies": [
+    {
+      "id": "DA57395",
+      "type": "pc",
+      "startDate": "2019-09-10",
+      "endDate": "2020-09-10",
+      "insurer": "We Insure Any Car",
+      "rate": 392.63
+    },
+    {
+      "id": "DA46390",
+      "type": "pc",
+      "startDate": "2019-05-01",
+      "endDate": "2020-05-01",
+      "insurer": "I M Xpensive",
+      "rate": 1485.21
+    },
+    {
+      "id": "DA36545",
+      "type": "pc",
+      "startDate": "2019-11-11",
+      "endDate": "2020-11-11",
+      "insurer": "We Insure Any Car",
+      "rate": 539.23
+    }
+  ],
+  "contactHistory": [
+    {
+      "author": {
+        "name": {
+          "forename": "John",
+          "surname": "Smith"
+        },
+        "profilePhoto": "/images/person-who-does-not-exist.jpg"
+      },
+      "date": "2019-11-19T16:18:41Z",
+      "header": "Private Car Quote",
+      "body": "Provided client with private car quote. Was unable to offer rate due to garaging address."
+    },
+    {
+      "author": {
+        "name": {
+          "forename": "Frank",
+          "surname": "Castle"
+        },
+        "profilePhoto": "/images/person-who-does-not-exist.jpg"
+      },
+      "date": "2019-04-19T09:11:26Z",
+      "header": "Adjustment",
+      "body": "Additional passenger added to Policy SN56789. Additional premium of £45.56.",
+      "status": "Success"
+    },
+    {
+      "author": {
+        "name": {
+          "forename": "Jane",
+          "surname": "Doe"
+        },
+        "profilePhoto": "/images/person-who-does-not-exist.jpg"
+      },
+      "date": "2018-06-15T12:54:22Z",
+      "header": "Rejected",
+      "body": "Policy SN23568 rejected due to fraudulent claim.",
+      "status": "Danger"
+    }
+  ],
+  "customerSearchResults": [
+    {
+      "id": "12345",
+      "type": "individual",
+      "forename": "Bob",
+      "surname": "Jones",
+      "date_of_birth": "1960/09/12",
+      "postcode": "AB23 3UE"
+    },
+    {
+      "id": "34634",
+      "type": "individual",
+      "forename": "John",
+      "surname": "Jones",
+      "date_of_birth": "1964/02/18",
+      "postcode": "BB4 4HG"
+    },
+    {
+      "id": "45359",
+      "type": "individual",
+      "forename": "James",
+      "surname": "Jones",
+      "date_of_birth": "1984/12/19",
+      "postcode": "OL13 8TE"
+    },
+    {
+      "id": "35778",
+      "type": "individual",
+      "forename": "Alice",
+      "surname": "Jones",
+      "date_of_birth": "1989/04/12",
+      "postcode": "OL10 1HF"
+    },
+    {
+      "id": "97345",
+      "type": "individual",
+      "forename": "Jenny",
+      "surname": "Jones",
+      "date_of_birth": "1980/04/23",
+      "postcode": "BB1 3HD"
+    },
+    {
+      "id": "32460",
+      "type": "company",
+      "company_name": "Smith & Jones Travel Ltd",
+      "trading_name": "Smith & Jones Travel Ltd",
+      "registered_co_number": "123456789",
+      "postcode": "M2 4RY"
+    },
+    {
+      "id": "65894",
+      "type": "company",
+      "company_name": "Jones and Jones",
+      "trading_name": "Jones Motors",
+      "registered_co_number": "12345678",
+      "postcode": "BB11 4RD"
+    },
+    {
+      "id": "65894",
+      "type": "company",
+      "company_name": "Johnsons Group",
+      "trading_name": "Johnson's Cars",
+      "registered_co_number": "34564262",
+      "postcode": "M23 7UD"
+    },
+    {
+      "id": "65894",
+      "type": "company",
+      "company_name": "Friendly Frank",
+      "trading_name": "Frank's Fleet Cars",
+      "registered_co_number": "23456789",
+      "postcode": "L1 3HE"
+    },
+    {
+      "id": "65894",
+      "type": "company",
+      "company_name": "Baker's Travel Ltd",
+      "trading_name": "Baker's Travel",
+      "registered_co_number": "23765893",
+      "postcode": "NW1 8QT"
+    }
+  ]
+}

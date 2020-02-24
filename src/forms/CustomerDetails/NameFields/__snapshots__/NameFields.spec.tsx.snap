@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NameFields NameFields matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "first-name",
+            }
+          }
+          label="First name"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "middle-name",
+            }
+          }
+          label="Middle name (optional)"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+  <QuestionBox
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "surname",
+            }
+          }
+          label="Surname"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+</Fragment>
+`;
+
+exports[`NameFields NameFields with field errors matches snapshot 1`] = `
+<Fragment>
+  <QuestionBox
+    errorText="error!"
+    hasError={true}
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "first-name",
+            }
+          }
+          isInvalid={true}
+          label="First name"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+  <QuestionBox
+    errorText="error!"
+    hasError={true}
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "middle-name",
+            }
+          }
+          isInvalid={true}
+          label="Middle name (optional)"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+  <QuestionBox
+    errorText="error!"
+    hasError={true}
+    inputFields={
+      Array [
+        <TextField
+          additionalClasses={
+            Array [
+              "formTextField",
+            ]
+          }
+          attributes={
+            Object {
+              "test-id": "surname",
+            }
+          }
+          isInvalid={true}
+          label="Surname"
+          onChange={[Function]}
+          value=""
+        />,
+      ]
+    }
+  />
+</Fragment>
+`;

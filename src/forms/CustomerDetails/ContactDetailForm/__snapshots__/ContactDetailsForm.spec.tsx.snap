@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactDetailForm snapshots ContactDetailForm matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="contact-detail-form"
+>
+  <ContactDetailFields
+    detail=""
+    fieldErrors={
+      Object {
+        "detail": undefined,
+        "type": undefined,
+      }
+    }
+    onChange={[Function]}
+    type=""
+  />
+</div>
+`;
+
+exports[`ContactDetailForm snapshots ContactDetailForm with initial values matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="contact-detail-form"
+>
+  <ContactDetailFields
+    detail=""
+    fieldErrors={
+      Object {
+        "detail": undefined,
+        "type": undefined,
+      }
+    }
+    onChange={[Function]}
+    type=""
+  />
+</div>
+`;
+
+exports[`ContactDetailForm snapshots ContactDetailForm without form errors matches snapshot 1`] = `
+<div
+  className="formSection "
+  onKeyUp={[Function]}
+  test-id="contact-detail-form"
+>
+  <ContactDetailFields
+    detail=""
+    fieldErrors={
+      Object {
+        "detail": undefined,
+        "type": undefined,
+      }
+    }
+    onChange={[Function]}
+    type=""
+  />
+</div>
+`;

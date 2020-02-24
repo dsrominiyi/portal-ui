@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavLink component story renders match snapshots: active 1`] = `
+<Link
+  classNames={
+    Array [
+      "navLink active",
+    ]
+  }
+  icon={
+    <i
+      className="fas fa-calendar-alt"
+    />
+  }
+  label="Diary"
+  onClick={[Function]}
+/>
+`;
+
+exports[`NavLink component story renders match snapshots: mini 1`] = `
+<Link
+  classNames={
+    Array [
+      "navLink mini",
+    ]
+  }
+  icon={
+    <i
+      className="fas fa-user"
+    />
+  }
+  label="Customer Overview"
+  onClick={[Function]}
+/>
+`;
+
+exports[`NavLink component story renders match snapshots: withHref 1`] = `
+<Link
+  classNames={
+    Array [
+      "navLink",
+    ]
+  }
+  href="https://www.google.com"
+  icon={
+    <i
+      className="fas fa-user"
+    />
+  }
+  label="Customer Overview"
+/>
+`;
+
+exports[`NavLink component story renders match snapshots: withOnClick 1`] = `
+<Link
+  classNames={
+    Array [
+      "navLink",
+    ]
+  }
+  icon={
+    <i
+      className="fas fa-folder"
+    />
+  }
+  label="Policies"
+  onClick={[Function]}
+/>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconLink component story renders match snapshots: noPhoto 1`] = `
+<div
+  className="userLink"
+>
+  <div
+    className="topbarDivider"
+  />
+  <div
+    className="userContainer"
+  >
+    <span
+      className="userName"
+    >
+      John Smith
+    </span>
+    <UserImage
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Smith",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`IconLink component story renders match snapshots: withPhoto 1`] = `
+<div
+  className="userLink"
+>
+  <div
+    className="topbarDivider"
+  />
+  <div
+    className="userContainer"
+  >
+    <span
+      className="userName"
+    >
+      John Smith
+    </span>
+    <UserImage
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Smith",
+        }
+      }
+    />
+  </div>
+</div>
+`;

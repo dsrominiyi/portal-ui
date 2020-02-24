@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContactNote component story renders match snapshots: clickableNote 1`] = `
+<div
+  className="contactNote clickable info"
+  onClick={[Function]}
+>
+  <div
+    className="headerContainer"
+  >
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Doe",
+        }
+      }
+    />
+    <div>
+      <div
+        className="header"
+      >
+        Private Car Quote
+      </div>
+      <div
+        className="nameDate"
+      >
+        John | 19 November, 2019
+      </div>
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    Provided client with private car quote. Was unable to offer rate due to garaging address.
+  </div>
+</div>
+`;
+
+exports[`ContactNote component story renders match snapshots: dangerNote 1`] = `
+<div
+  className="contactNote danger"
+>
+  <div
+    className="headerContainer"
+  >
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Doe",
+        }
+      }
+    />
+    <div>
+      <div
+        className="header"
+      >
+        Rejected
+      </div>
+      <div
+        className="nameDate"
+      >
+        John | 19 November, 2019
+      </div>
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    Policy SN23568 rejected due to fraudulent claim.
+  </div>
+</div>
+`;
+
+exports[`ContactNote component story renders match snapshots: infoNote 1`] = `
+<div
+  className="contactNote info"
+>
+  <div
+    className="headerContainer"
+  >
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Doe",
+        }
+      }
+    />
+    <div>
+      <div
+        className="header"
+      >
+        Private Car Quote
+      </div>
+      <div
+        className="nameDate"
+      >
+        John | 19 November, 2019
+      </div>
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    Provided client with private car quote. Was unable to offer rate due to garaging address.
+  </div>
+</div>
+`;
+
+exports[`ContactNote component story renders match snapshots: successNote 1`] = `
+<div
+  className="contactNote success"
+>
+  <div
+    className="headerContainer"
+  >
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Doe",
+        }
+      }
+    />
+    <div>
+      <div
+        className="header"
+      >
+        Adjustment
+      </div>
+      <div
+        className="nameDate"
+      >
+        John | 19 November, 2019
+      </div>
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    Additional passenger added to Policy SN56789. Additional premium of £45.56.
+  </div>
+</div>
+`;
+
+exports[`ContactNote component story renders match snapshots: warningNote 1`] = `
+<div
+  className="contactNote warning"
+>
+  <div
+    className="headerContainer"
+  >
+    <UserImage
+      additionalClasses={
+        Array [
+          "userImage",
+        ]
+      }
+      imageUrl="/images/person-who-does-not-exist.jpg"
+      name={
+        Object {
+          "forename": "John",
+          "surname": "Doe",
+        }
+      }
+    />
+    <div>
+      <div
+        className="header"
+      >
+        Renewal
+      </div>
+      <div
+        className="nameDate"
+      >
+        John | 19 November, 2019
+      </div>
+    </div>
+  </div>
+  <div
+    className="bodyContainer"
+  >
+    Policy SN23567 offered renewal terms.
+  </div>
+</div>
+`;

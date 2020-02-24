@@ -1,0 +1,52 @@
+@import '../../style/_vars';
+
+.checkbox-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: $brand-charcoal;
+
+  .checkbox {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    outline: none;
+    border: 1px solid $brand-grey-white;
+    background-color: $brand-white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: 0.2s background-color, 0.2s border;
+
+    &.is-invalid {
+      border: 1px solid $brand-danger;
+
+      &:focus {
+        border: 1px solid $brand-danger;
+      }
+    }
+
+    &:checked {
+      border: 1px solid $brand-primary;
+      background-color: $brand-primary;
+    }
+
+    &:focus {
+      border: 1px solid $brand-primary;
+    }
+  }
+
+  svg {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    left: 2px;
+    pointer-events: none;
+
+    > * {
+      stroke: $brand-white;
+      stroke-width: 2;
+    }
+  }
+}

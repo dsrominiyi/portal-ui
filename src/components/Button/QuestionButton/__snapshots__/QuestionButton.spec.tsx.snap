@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuestionButton component story renders match snapshots: active 1`] = `
+<Button
+  classNames={
+    Array [
+      "questionButton active",
+    ]
+  }
+  label="Car Park"
+  onClick={[Function]}
+/>
+`;
+
+exports[`QuestionButton component story renders match snapshots: disabled 1`] = `
+<Button
+  classNames={
+    Array [
+      "questionButton",
+    ]
+  }
+  isDisabled={true}
+  label="Car Park"
+  onClick={[Function]}
+/>
+`;
+
+exports[`QuestionButton component story renders match snapshots: inactive 1`] = `
+<Button
+  classNames={
+    Array [
+      "questionButton",
+    ]
+  }
+  label="Car Park"
+  onClick={[Function]}
+/>
+`;

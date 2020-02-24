@@ -1,0 +1,594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoBox component story renders match snapshots: noDivider 1`] = `
+<div
+  className="infoBox"
+>
+  <div
+    className="topContainer headerDivide"
+  >
+    <div
+      className="headerContainer"
+    >
+      <div
+        className="header"
+      >
+        Policies
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemList"
+  >
+    <div
+      className="item"
+      key="0"
+    >
+      <PolicyWidget
+        id="PN0000"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="1"
+    >
+      <PolicyWidget
+        id="PN0001"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="2"
+    >
+      <PolicyWidget
+        id="PN0002"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="3"
+    >
+      <PolicyWidget
+        id="PN0003"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="4"
+    >
+      <PolicyWidget
+        id="PN0004"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="5"
+    >
+      <PolicyWidget
+        id="PN0005"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="6"
+    >
+      <PolicyWidget
+        id="PN0006"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="7"
+    >
+      <PolicyWidget
+        id="PN0007"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="8"
+    >
+      <PolicyWidget
+        id="PN0008"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="9"
+    >
+      <PolicyWidget
+        id="PN0009"
+        type="pc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBox component story renders match snapshots: noHeaderDivider 1`] = `
+<div
+  className="infoBox"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="headerContainer"
+    >
+      <div
+        className="header"
+      >
+        Policies
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemList"
+  >
+    <div
+      className="useDivider item"
+      key="0"
+    >
+      <PolicyWidget
+        id="PN0000"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="1"
+    >
+      <PolicyWidget
+        id="PN0001"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="2"
+    >
+      <PolicyWidget
+        id="PN0002"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="3"
+    >
+      <PolicyWidget
+        id="PN0003"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="4"
+    >
+      <PolicyWidget
+        id="PN0004"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="5"
+    >
+      <PolicyWidget
+        id="PN0005"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="6"
+    >
+      <PolicyWidget
+        id="PN0006"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="7"
+    >
+      <PolicyWidget
+        id="PN0007"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="8"
+    >
+      <PolicyWidget
+        id="PN0008"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="9"
+    >
+      <PolicyWidget
+        id="PN0009"
+        type="pc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBox component story renders match snapshots: noItems 1`] = `
+<div
+  className="infoBox"
+>
+  <div
+    className="topContainer"
+  >
+    <div
+      className="headerContainer"
+    >
+      <div
+        className="header"
+      >
+        Policies
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemList"
+  />
+</div>
+`;
+
+exports[`InfoBox component story renders match snapshots: noTitle 1`] = `
+<div
+  className="infoBox"
+>
+  <div
+    className="itemList"
+  >
+    <div
+      className="item"
+      key="0"
+    >
+      <PolicyWidget
+        id="PN0000"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="1"
+    >
+      <PolicyWidget
+        id="PN0001"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="2"
+    >
+      <PolicyWidget
+        id="PN0002"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="3"
+    >
+      <PolicyWidget
+        id="PN0003"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="4"
+    >
+      <PolicyWidget
+        id="PN0004"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="5"
+    >
+      <PolicyWidget
+        id="PN0005"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="6"
+    >
+      <PolicyWidget
+        id="PN0006"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="7"
+    >
+      <PolicyWidget
+        id="PN0007"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="8"
+    >
+      <PolicyWidget
+        id="PN0008"
+        type="pc"
+      />
+    </div>
+    <div
+      className="item"
+      key="9"
+    >
+      <PolicyWidget
+        id="PN0009"
+        type="pc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBox component story renders match snapshots: subHeaderAndMoreActions 1`] = `
+<div
+  className="infoBox"
+>
+  <div
+    className="topContainer headerDivide"
+  >
+    <div
+      className="headerContainer"
+    >
+      <div
+        className="header withSubHeader"
+      >
+        Policies
+      </div>
+      <div
+        className="moreAction"
+      >
+        <Component
+          key="moreActionsLink"
+          onClick={[Function]}
+        />
+      </div>
+    </div>
+    <div
+      className="subHeader"
+    >
+      Private Car
+    </div>
+  </div>
+  <div
+    className="itemList"
+  >
+    <div
+      className="useDivider item"
+      key="0"
+    >
+      <PolicyWidget
+        id="PN0000"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="1"
+    >
+      <PolicyWidget
+        id="PN0001"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="2"
+    >
+      <PolicyWidget
+        id="PN0002"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="3"
+    >
+      <PolicyWidget
+        id="PN0003"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="4"
+    >
+      <PolicyWidget
+        id="PN0004"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="5"
+    >
+      <PolicyWidget
+        id="PN0005"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="6"
+    >
+      <PolicyWidget
+        id="PN0006"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="7"
+    >
+      <PolicyWidget
+        id="PN0007"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="8"
+    >
+      <PolicyWidget
+        id="PN0008"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="9"
+    >
+      <PolicyWidget
+        id="PN0009"
+        type="pc"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`InfoBox component story renders match snapshots: titleAndDivider 1`] = `
+<div
+  className="infoBox"
+>
+  <div
+    className="topContainer headerDivide"
+  >
+    <div
+      className="headerContainer"
+    >
+      <div
+        className="header"
+      >
+        Policies
+      </div>
+    </div>
+  </div>
+  <div
+    className="itemList"
+  >
+    <div
+      className="useDivider item"
+      key="0"
+    >
+      <PolicyWidget
+        id="PN0000"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="1"
+    >
+      <PolicyWidget
+        id="PN0001"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="2"
+    >
+      <PolicyWidget
+        id="PN0002"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="3"
+    >
+      <PolicyWidget
+        id="PN0003"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="4"
+    >
+      <PolicyWidget
+        id="PN0004"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="5"
+    >
+      <PolicyWidget
+        id="PN0005"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="6"
+    >
+      <PolicyWidget
+        id="PN0006"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="7"
+    >
+      <PolicyWidget
+        id="PN0007"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="8"
+    >
+      <PolicyWidget
+        id="PN0008"
+        type="pc"
+      />
+    </div>
+    <div
+      className="useDivider item"
+      key="9"
+    >
+      <PolicyWidget
+        id="PN0009"
+        type="pc"
+      />
+    </div>
+  </div>
+</div>
+`;

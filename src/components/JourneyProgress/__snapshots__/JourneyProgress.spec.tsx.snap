@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JourneyProgress component story renders match snapshots: withFiveSteps 1`] = `
+<div
+  className="journeyWrapper"
+>
+  <a
+    className="step"
+    href="/step/1"
+    key="0"
+    title="Step One"
+  >
+    <span
+      className="position"
+    >
+      1
+    </span>
+    <span>
+      Step One
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/2"
+    key="1"
+    title="Step Two"
+  >
+    <span
+      className="position"
+    >
+      2
+    </span>
+    <span>
+      Step Two
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/3"
+    key="2"
+    title="Step Three"
+  >
+    <span
+      className="position"
+    >
+      3
+    </span>
+    <span>
+      Step Three
+    </span>
+  </a>
+  <a
+    className="step active"
+    href="/step/4"
+    key="3"
+    title="Step Four"
+  >
+    <span
+      className="position"
+    >
+      4
+    </span>
+    <span>
+      Step Four
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/5"
+    key="4"
+    title="Step Five"
+  >
+    <span
+      className="position"
+    >
+      5
+    </span>
+    <span>
+      Step Five
+    </span>
+  </a>
+</div>
+`;
+
+exports[`JourneyProgress component story renders match snapshots: withLongTitles 1`] = `
+<div
+  className="journeyWrapper"
+>
+  <a
+    className="step active"
+    href="/step/1"
+    key="0"
+    title="Vehicle Details"
+  >
+    <span
+      className="position"
+    >
+      1
+    </span>
+    <span>
+      Vehicle Details
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/2"
+    key="1"
+    title="Driver Details"
+  >
+    <span
+      className="position"
+    >
+      2
+    </span>
+    <span>
+      Driver Details
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/3"
+    key="2"
+    title="Policy Details"
+  >
+    <span
+      className="position"
+    >
+      3
+    </span>
+    <span>
+      Policy Details
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/4"
+    key="3"
+    title="Disestablishmentarianism"
+  >
+    <span
+      className="position"
+    >
+      4
+    </span>
+    <span>
+      Disestablishmentarianism
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/5"
+    key="4"
+    title="Convictions"
+  >
+    <span
+      className="position"
+    >
+      5
+    </span>
+    <span>
+      Convictions
+    </span>
+  </a>
+</div>
+`;
+
+exports[`JourneyProgress component story renders match snapshots: withNoSteps 1`] = `
+<div
+  className="journeyWrapper"
+/>
+`;
+
+exports[`JourneyProgress component story renders match snapshots: withTwoSteps 1`] = `
+<div
+  className="journeyWrapper"
+>
+  <a
+    className="step active"
+    href="/step/1"
+    key="0"
+    title="Step One"
+  >
+    <span
+      className="position"
+    >
+      1
+    </span>
+    <span>
+      Step One
+    </span>
+  </a>
+  <a
+    className="step"
+    href="/step/2"
+    key="1"
+    title="Step Two"
+  >
+    <span
+      className="position"
+    >
+      2
+    </span>
+    <span>
+      Step Two
+    </span>
+  </a>
+</div>
+`;

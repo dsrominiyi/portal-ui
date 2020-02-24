@@ -1,0 +1,36 @@
+@import '../../style/vars';
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70px;
+  min-width: 580px;
+  padding: 0 1.5rem;
+  background: $brand-white;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+
+  .left-items,
+  .right-items {
+    display: flex;
+
+    .header-item {
+      display: flex;
+      align-items: center;
+      margin: 0 0.5rem;
+      text-decoration: none;
+    }
+  }
+
+  .left-items {
+    flex: 0 0 58.33333%;
+
+    .header-item {
+      flex: 1;
+    }
+  }
+
+  .right-items {
+    justify-content: flex-end;
+    flex: 0 0 41.66667%;
+  }
+}

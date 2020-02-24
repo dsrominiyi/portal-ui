@@ -1,0 +1,60 @@
+@import '../../style/vars';
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1rem;
+
+  th {
+    color: $brand-mid-grey;
+  }
+
+  td {
+    color: $brand-charcoal;
+  }
+}
+
+.table-cell {
+  padding: 10px;
+  text-align: left;
+}
+
+.table-row-clickable:hover {
+  background-color: $brand-off-white;
+  cursor: pointer;
+}
+
+.bottom-border {
+  border-bottom: 1px solid $brand-grey-white;
+}
+
+button.control-button {
+  display: flex;
+  padding: 3px 20px;
+
+  svg {
+    height: 15px;
+    width: 15px;
+  }
+}
+
+button.edit-button {
+  svg {
+    path {
+      stroke: $brand-charcoal;
+    }
+  }
+}
+
+button.delete-button {
+  svg {
+    path:first-child {
+      stroke: $brand-white;
+    }
+
+    path:nth-child(2) {
+      stroke: $brand-white;
+      fill: $brand-white;
+    }
+  }
+}

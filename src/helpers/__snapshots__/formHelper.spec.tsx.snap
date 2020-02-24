@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`formHelper buldInput Dropdown input with validation errors matches snapshot 1`] = `
+<div
+  className="questionBox hasError"
+>
+  <div>
+    <Dropdown
+      isInvalid={true}
+      key="0"
+      label="test"
+      onChange={[Function]}
+      options={
+        Array [
+          "1",
+          "2",
+        ]
+      }
+      selected="1"
+    />
+  </div>
+  <div
+    className="errorText"
+  >
+    invalid
+  </div>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNotFound PageNotFound container matches snapshot 1`] = `
+<div
+  className="pageNotFoundContainer"
+>
+  404 Page Not Found :(
+</div>
+`;

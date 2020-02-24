@@ -1,0 +1,12 @@
+@import '../../style/vars';
+
+.page-not-found-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4em;
+  color: $brand-white;
+  background-color: $brand-black;
+}
