@@ -1,0 +1,8 @@
+coverage
+node_modules
+/public/assets
+
+yarn-error.log
+package-lock.json
+.vscode
+!.vscode/settings.json

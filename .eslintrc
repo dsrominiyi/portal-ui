@@ -1,0 +1,223 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module"
+  },
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:import/typescript",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier/@typescript-eslint",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "prettier",
+    "extra-rules"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js", ".jsx", ".ts", ".tsx", ".json"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "printWidth": 100
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": [
+      "error",
+      {
+        "ignoreRestArgs": true
+      }
+    ],
+    "@typescript-eslint/explicit-member-accessibility": [
+      "error",
+      {
+        "accessibility": "explicit"
+      }
+    ],
+    "@typescript-eslint/member-ordering": [
+      "error",
+      {
+        "default": "never",
+        "interfaces": [
+          "constructor",
+          "field",
+          "method"
+        ],
+        "typeLiterals": [
+          "constructor",
+          "field",
+          "method"
+        ]
+      }
+    ],
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".tsx"
+        ]
+      }
+    ],
+    "react/jsx-fragments": [
+      1,
+      "element"
+    ],
+    "react/destructuring-assignment": [
+      1,
+      "always",
+      {
+        "ignoreClassFields": true
+      }
+    ],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowTernary": true
+      }
+    ],
+    "id-blacklist": [
+      "error",
+      "any",
+      "Number",
+      "number",
+      "String",
+      "string",
+      "Boolean",
+      "boolean"
+    ],
+    "id-match": "error",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ],
+    "no-underscore-dangle": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "implicit-arrow-linebreak": [
+      "error",
+      "beside"
+    ],
+    "prefer-destructuring": [
+      "error",
+      {
+        "object": true,
+        "array": false
+      }
+    ],
+    "no-restricted-syntax": [
+      "error",
+      "ForInStatement",
+      "LabeledStatement",
+      "WithStatement"
+    ],
+    "extra-rules/no-commented-out-code": "warn",
+    "import/extensions": [
+      "error", "ignorePackages", {
+      "js": "never",
+      "mjs": "never",
+      "jsx": "never",
+      "ts": "never",
+      "tsx": "never"
+    }]
+  },
+  "overrides": [
+    {
+      "files": [
+        "**/*.js"
+      ],
+      "rules": {
+        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/explicit-function-return-type": 0,
+        "global-require": 0
+      }
+    },
+    {
+      "files": [
+        "**/*.ts",
+        "**/*.tsx"
+      ],
+      "rules": {
+        "@typescript-eslint/explicit-function-return-type": 0,
+        "@typescript-eslint/no-empty-interface": 0,
+        "@typescript-eslint/no-non-null-assertion": 0,
+        "@typescript-eslint/camelcase": 0,
+        "react/state-in-constructor": 0,
+        "react/button-has-type": 0,
+        "react/prop-types": 0,
+        "react/jsx-indent": 0,
+        "react/jsx-indent-props": 0,
+        "react/jsx-props-no-spreading": 0,
+        "react/jsx-closing-bracket-location": 0,
+        "react/no-array-index-key": 0,
+        "react/jsx-wrap-multilines": 0,
+        "react/display-name": 0,
+        "react/jsx-curly-newline": 0,
+        "react/no-unescaped-entities": 0,
+        "react-hooks/exhaustive-deps": 0,
+        "react/jsx-closing-tag-location": 0,
+        "jsx-a11y/no-static-element-interactions": 0,
+        "jsx-a11y/click-events-have-key-events": 0,
+        "jsx-a11y/anchor-is-valid": 0,
+        "import/prefer-default-export": 0,
+        "import/no-extraneous-dependencies": 0,
+        "import/no-named-as-default": 0,
+        "max-len": 0,
+        "no-alert": 0,
+        "no-undef": 0,
+        "no-unused-vars": 0,
+        "consistent-return": 0,
+        "no-nested-ternary": 0,
+        "default-case": 0,
+        "camelcase": 0
+      }
+    },
+    {
+      "files": [
+        "jest.initial.setup.ts",
+        "jest.setup.ts",
+        "src/types.d.ts",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.stories.ts",
+        "**/*.stories.tsx"
+      ],
+      "rules": {
+        "@typescript-eslint/no-explicit-any": 0,
+        "global-require": 0,
+        "@typescript-eslint/no-empty-function": 0
+      }
+    }
+  ]
+}

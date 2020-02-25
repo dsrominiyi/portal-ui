@@ -1,0 +1,19 @@
+@import '../src/style/vars';
+
+div[id=story-root] { // have to use this syntax to avoid being picked up by typings-for-css-modules-loader
+  padding: 0 2.5rem;
+}
+
+.smaller-img {
+  height: 40px;
+}
+
+.dark-background {
+  padding: 1rem 0;
+  background-color: #0c2340;
+}
+
+.custom-link {
+  color: $brand-danger !important;
+  cursor: pointer;
+}

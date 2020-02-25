@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es2018",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "files": [
+    "../node_modules/@datamatters/types-customer-service/index.d.ts",
+    "../src/types.d.ts",
+    "../src/types.modules.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "**/*.spec.tsx"
+  ]
+}
